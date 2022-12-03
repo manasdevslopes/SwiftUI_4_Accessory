@@ -231,7 +231,7 @@ struct TagView: Layout {
 
 // MARK: - String tags
 var rawTags: [String] = [
-  "SwiftUI", "Xcode", "Apple ", "WWDC22", "iOS16", "iPadOS16", "macOS13", "watchOS9", "Xcode14", "API's"
+  "SwiftUI", "Swift", "Xcode", "Apple ", "WWDC22", "iOS16", "iPadOS16", "macOS13", "watchOS9", "Xcode14", "API's"
 ]
 
 // MARK: - Tag Model
