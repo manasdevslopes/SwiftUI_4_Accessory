@@ -16,4 +16,32 @@
 
    ![image](https://user-images.githubusercontent.com/43421834/200169545-27f7ce10-bbe7-452b-a271-369ef0004f2b.png)
 
-**2**
+**2. NavigationStack, NavigationLink, NavigationSplitView**
+
+**3. Bottom Sheets**
+
+**4. Grid, GridRow**
+
+**5. onTapGesture - location, global**
+
+**6. ShareLink API**
+
+**7. MultidatePicker**
+
+**8. Searches**
+
+**9. Gradients, Shadows API**
+
+**10. AnyLayout - horizontalSizeClass, dynamicTypeSize**
+
+**11. StoreKitReview API**
+
+**12. ScrollViewModifiers**
+
+**13. SFSymbol Changes**
+
+**14. Text Modifiers**
+
+**15. **
+
+**16. **
