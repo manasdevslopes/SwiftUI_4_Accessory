@@ -38,55 +38,57 @@ struct NewLayoutAPI: View {
       }
       .padding(.horizontal, 15)
       
-      
-      ScrollView {
-        VStack {
-          Picker("", selection: $alignmentValue) {
-            Text("Leading")
-              .tag(0)
-            Text("Center")
-              .tag(1)
-            Text("Trailing")
-              .tag(2)
-          }
-          .pickerStyle(.segmented)
-          .padding(.bottom, 20)
-          
-          TagView(alignment: alignmentValue == 0 ? .leading : alignmentValue == 1 ? .center : .trailing, spacing: 20) {
-            ForEach($tags) { $tag in
-              // MARK: - New Toggle API
-              Toggle(tag.name, isOn: $tag.isSelected)
-                .toggleStyle(.button)
-                .buttonStyle(.bordered)
-                .tint(tag.isSelected ? .red : .gray)
+      VStack{
+        ScrollView {
+          VStack {
+            Picker("", selection: $alignmentValue) {
+              Text("Leading")
+                .tag(0)
+              Text("Center")
+                .tag(1)
+              Text("Trailing")
+                .tag(2)
             }
+            .pickerStyle(.segmented)
+            .padding(.bottom, 20)
+            
+            TagView(alignment: alignmentValue == 0 ? .leading : alignmentValue == 1 ? .center : .trailing, spacing: 20) {
+              ForEach($tags) { $tag in
+                // MARK: - New Toggle API
+                Toggle(tag.name, isOn: $tag.isSelected)
+                  .toggleStyle(.button)
+                  .buttonStyle(.bordered)
+                  .tint(tag.isSelected ? .red : .gray)
+              }
+            }
+            .animation(.interactiveSpring(response: 0.5, dampingFraction: 0.6, blendDuration: 0.6), value: alignmentValue)
+            
+            
+            //          HStack {
+            //            // MARK: - Multiline Text Field New API
+            //            TextField("Add Tag", text: $text, axis: .vertical)
+            //              .textFieldStyle(.roundedBorder)
+            //              .lineLimit(1...5)
+            //
+            //            Button("Add") {
+            //              withAnimation(.spring()) {
+            //                tags.append(Tag(name: text))
+            //                text = ""
+            //              }
+            //            }
+            //            .buttonStyle(.bordered)
+            //            .buttonBorderShape(.roundedRectangle(radius: 4))
+            //            .tint(.red)
+            //            .disabled(text == "")
+            //          }
           }
-          .animation(.interactiveSpring(response: 0.5, dampingFraction: 0.6, blendDuration: 0.6), value: alignmentValue)
-          
-          
-          //          HStack {
-          //            // MARK: - Multiline Text Field New API
-          //            TextField("Add Tag", text: $text, axis: .vertical)
-          //              .textFieldStyle(.roundedBorder)
-          //              .lineLimit(1...5)
-          //
-          //            Button("Add") {
-          //              withAnimation(.spring()) {
-          //                tags.append(Tag(name: text))
-          //                text = ""
-          //              }
-          //            }
-          //            .buttonStyle(.bordered)
-          //            .buttonBorderShape(.roundedRectangle(radius: 4))
-          //            .tint(.red)
-          //            .disabled(text == "")
-          //          }
+          .padding(15)
         }
-        .padding(15)
+        .frame(maxHeight: .infinity, alignment: .bottom)
+        .navigationTitle("Layout")
+        .scrollDismissesKeyboard(.immediately) // .automatic, .immediately, .interactively, .never
+        .scrollIndicators(.visible) // .visible, .hidden, .automatic, .never
       }
-      .frame(maxHeight: .infinity, alignment: .bottom)
-      .navigationTitle("Layout")
-      .scrollDismissesKeyboard(.immediately) // .automatic, .immediately, .interactively, .never
       
       // MARK: - selected tags
       VStack {
@@ -128,6 +130,7 @@ struct NewLayoutAPI: View {
       }
       .padding(15)
     }
+    .persistentSystemOverlays(.hidden)
   }
 }
 

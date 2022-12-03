@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct MultiDatePickers: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @State private var dates = Set<DateComponents>()
+  @Environment(\.calendar) var calendar
+  
+  var body: some View {
+    VStack {
+      MultiDatePicker("Select your preferred dates", selection: $dates, in: Date.now...)
+      Text(summary)
     }
+    .padding()
+  }
+  
+  var summary: String {
+    dates.compactMap { components in
+      calendar.date(from: components)?.formatted(date: .long, time: .omitted)
+    }.formatted()
+  }
 }
 
 struct MultiDatePickers_Previews: PreviewProvider {
-    static var previews: some View {
-        MultiDatePickers()
-    }
+  static var previews: some View {
+    MultiDatePickers()
+  }
 }
