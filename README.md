@@ -42,6 +42,6 @@
 
 **14. Text Modifiers**
 
-**15. **
+**15. Regex Basics**
 
 **16. **
