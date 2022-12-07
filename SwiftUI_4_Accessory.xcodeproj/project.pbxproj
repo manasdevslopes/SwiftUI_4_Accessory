@@ -25,6 +25,7 @@
 		FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF49293B886A00C4ED1E /* Texts.swift */; };
 		FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */; };
 		FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2EB27293E2F7900086E71 /* Regexs.swift */; };
+		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
 		FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */; };
 		FDF036C229179913000D3F87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036C129179913000D3F87 /* ContentView.swift */; };
 		FDF036C429179917000D3F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C329179917000D3F87 /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		FD62CF49293B886A00C4ED1E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
+		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
 		FDF036BC29179913000D3F87 /* SwiftUI_4_Accessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_4_Accessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_4_AccessoryApp.swift; sourceTree = "<group>"; };
 		FDF036C129179913000D3F87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FDC2EB29293E334700086E71 /* WeatherKits */,
+				FDE34C4D2940BBFA0083C126 /* Charts */,
 				FDC2EB26293E2F6D00086E71 /* Regexs */,
 				FD62CF48293B885E00C4ED1E /* Texts */,
 				FD62CF45293B86BC00C4ED1E /* SFSymbols */,
@@ -238,6 +241,14 @@
 			path = WeatherKits;
 			sourceTree = "<group>";
 		};
+		FDE34C4D2940BBFA0083C126 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
 		FDF036B329179913000D3F87 = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +370,7 @@
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
 				FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */,
+				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
