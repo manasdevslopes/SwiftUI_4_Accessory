@@ -44,4 +44,7 @@
 
 **15. Regex Basics**
 
-**16. **
+**16. SwiftUI Charts**
+
+![image](https://user-images.githubusercontent.com/43421834/206200150-26f0b550-8a35-4da6-b135-4992d5c6f8b1.png)
+
