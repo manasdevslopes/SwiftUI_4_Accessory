@@ -10,6 +10,10 @@
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
 		FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */; };
+		FD570F112947575200072769 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F102947575200072769 /* Particle.swift */; };
+		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
+		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
+		FD570F1729476D7500072769 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1629476D7500072769 /* MotionManager.swift */; };
 		FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606353292F95E3006A26FF /* NavigationStackAPI.swift */; };
 		FD606356292F9AA4006A26FF /* NavigationSplitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606355292F9AA4006A26FF /* NavigationSplitAPI.swift */; };
 		FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606358292FA307006A26FF /* BottomSheetAPI.swift */; };
@@ -54,6 +58,10 @@
 		FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoopsTips.swift; sourceTree = "<group>"; };
 		FD3E7624293CB1900024CC49 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		FD3E7626293CB1900024CC49 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FD570F102947575200072769 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
+		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
+		FD570F1629476D7500072769 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		FD606353292F95E3006A26FF /* NavigationStackAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackAPI.swift; sourceTree = "<group>"; };
 		FD606355292F9AA4006A26FF /* NavigationSplitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitAPI.swift; sourceTree = "<group>"; };
 		FD606358292FA307006A26FF /* BottomSheetAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetAPI.swift; sourceTree = "<group>"; };
@@ -131,6 +139,17 @@
 				FD3E7626293CB1900024CC49 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD570F0F2947573F00072769 /* SpecialEffects */ = {
+			isa = PBXGroup;
+			children = (
+				FD570F102947575200072769 /* Particle.swift */,
+				FD570F122947583300072769 /* ParticleSystem.swift */,
+				FD570F1429475A9100072769 /* SpecialEffects.swift */,
+				FD570F1629476D7500072769 /* MotionManager.swift */,
+			);
+			path = SpecialEffects;
 			sourceTree = "<group>";
 		};
 		FD606351292F95B7006A26FF /* SwiftUI4 */ = {
@@ -301,6 +320,7 @@
 			children = (
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FD570F0F2947573F00072769 /* SpecialEffects */,
 				FD3E7617293CAA1B0024CC49 /* ForLoopsTips */,
 				FD606351292F95B7006A26FF /* SwiftUI4 */,
 				FDF036CD29179B1D000D3F87 /* NewLayoutAPI */,
@@ -398,8 +418,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
+				FD570F112947575200072769 /* Particle.swift in Sources */,
+				FD570F132947583300072769 /* ParticleSystem.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
 				FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */,
+				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
@@ -409,6 +432,7 @@
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
+				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
@@ -554,6 +578,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,6 +610,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
