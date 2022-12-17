@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */; };
+		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
 		FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSeanAllen.swift; sourceTree = "<group>"; };
+		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftViewsChart.swift; sourceTree = "<group>"; };
 		FD354EA62943243000B3BD6E /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
 		FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoopsTips.swift; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 				FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */,
 			);
 			path = NavigationStackSeanAllen;
+			sourceTree = "<group>";
+		};
+		FD12388F294DEC3B009B5672 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				FD123890294DEC48009B5672 /* Closures.swift */,
+			);
+			path = Closures;
 			sourceTree = "<group>";
 		};
 		FD354EA3294323FE00B3BD6E /* KavsoftViewsChart */ = {
@@ -331,6 +341,7 @@
 			children = (
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FD12388F294DEC3B009B5672 /* Closures */,
 				FD570F0F2947573F00072769 /* SpecialEffects */,
 				FD3E7617293CAA1B0024CC49 /* ForLoopsTips */,
 				FD606351292F95B7006A26FF /* SwiftUI4 */,
@@ -445,6 +456,7 @@
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
+				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
