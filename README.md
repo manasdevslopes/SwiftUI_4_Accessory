@@ -48,5 +48,5 @@
 
 ![image](https://user-images.githubusercontent.com/43421834/206200150-26f0b550-8a35-4da6-b135-4992d5c6f8b1.png)
 
-**17. Sean Allen explaination on Closures, Delegates-Protocolos**
+**17. Sean Allen explaination on Closures, Delegate-Protocol**
 
