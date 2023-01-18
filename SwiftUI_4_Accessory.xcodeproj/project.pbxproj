@@ -33,6 +33,8 @@
 		FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */; };
 		FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF49293B886A00C4ED1E /* Texts.swift */; };
 		FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */; };
+		FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52529781D0F00C3C137 /* MorphingView.swift */; };
+		FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52829781E3800C3C137 /* CustomShape.swift */; };
 		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
 		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
 		FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2EB27293E2F7900086E71 /* Regexs.swift */; };
@@ -86,6 +88,8 @@
 		FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		FD62CF49293B886A00C4ED1E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
+		FDA1F52529781D0F00C3C137 /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
+		FDA1F52829781E3800C3C137 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
@@ -309,9 +313,27 @@
 			path = Texts;
 			sourceTree = "<group>";
 		};
+		FDA1F52429781CC500C3C137 /* ShapeMorphing */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1F52729781E2400C3C137 /* Model */,
+				FDA1F52529781D0F00C3C137 /* MorphingView.swift */,
+			);
+			path = ShapeMorphing;
+			sourceTree = "<group>";
+		};
+		FDA1F52729781E2400C3C137 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1F52829781E3800C3C137 /* CustomShape.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDA1F52429781CC500C3C137 /* ShapeMorphing */,
 				FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */,
 			);
 			path = ComplexUI;
@@ -320,7 +342,6 @@
 		FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FDADB09D2977F8AE00FB9CE4 /* ViewModel */,
 				FDADB09C2977F8AB00FB9CE4 /* View */,
 				FDADB09B2977F8A800FB9CE4 /* Model */,
 			);
@@ -341,13 +362,6 @@
 				FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		FDADB09D2977F8AE00FB9CE4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FDC2EB26293E2F6D00086E71 /* Regexs */ = {
@@ -501,6 +515,7 @@
 				FD570F112947575200072769 /* Particle.swift in Sources */,
 				FD570F132947583300072769 /* ParticleSystem.swift in Sources */,
 				FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */,
+				FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
 				FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */,
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
@@ -508,6 +523,7 @@
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
+				FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */,
 				FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */,
 				FD606362292FAF5D006A26FF /* ShareLinkAPI.swift in Sources */,
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
