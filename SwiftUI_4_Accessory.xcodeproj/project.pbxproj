@@ -33,6 +33,8 @@
 		FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */; };
 		FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF49293B886A00C4ED1E /* Texts.swift */; };
 		FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */; };
+		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
+		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
 		FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2EB27293E2F7900086E71 /* Regexs.swift */; };
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
 		FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */; };
@@ -84,6 +86,8 @@
 		FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		FD62CF49293B886A00C4ED1E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
+		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
 		FDF036BC29179913000D3F87 /* SwiftUI_4_Accessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_4_Accessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -305,6 +309,47 @@
 			path = Texts;
 			sourceTree = "<group>";
 		};
+		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */,
+			);
+			path = ComplexUI;
+			sourceTree = "<group>";
+		};
+		FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FDADB09D2977F8AE00FB9CE4 /* ViewModel */,
+				FDADB09C2977F8AB00FB9CE4 /* View */,
+				FDADB09B2977F8A800FB9CE4 /* Model */,
+			);
+			path = CollapsibleHeaderMenu;
+			sourceTree = "<group>";
+		};
+		FDADB09B2977F8A800FB9CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDADB09E2977F8D600FB9CE4 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDADB09C2977F8AB00FB9CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDADB09D2977F8AE00FB9CE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FDC2EB26293E2F6D00086E71 /* Regexs */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +396,7 @@
 			children = (
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FDADB0992977EEEC00FB9CE4 /* ComplexUI */,
 				FD123892294DF9AA009B5672 /* DelegtesProtocol */,
 				FD12388F294DEC3B009B5672 /* Closures */,
 				FD570F0F2947573F00072769 /* SpecialEffects */,
@@ -450,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
 				FD570F112947575200072769 /* Particle.swift in Sources */,
 				FD570F132947583300072769 /* ParticleSystem.swift in Sources */,
@@ -467,6 +514,7 @@
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
+				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
