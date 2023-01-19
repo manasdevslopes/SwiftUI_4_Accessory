@@ -55,4 +55,6 @@
      1. Collapsible Header Menu 
      
      2. Morphing View
+     
+     3. Image Cropping Tool from PhotosUI
 
