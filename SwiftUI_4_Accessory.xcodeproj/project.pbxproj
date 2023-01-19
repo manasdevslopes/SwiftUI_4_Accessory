@@ -13,6 +13,9 @@
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
 		FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */; };
+		FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B552979647D00A19CFC /* ImageCroppingTool.swift */; };
+		FD428B582979649C00A19CFC /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B572979649C00A19CFC /* Crop.swift */; };
+		FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B59297969EE00A19CFC /* CustomImagePicker.swift */; };
 		FD570F112947575200072769 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F102947575200072769 /* Particle.swift */; };
 		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
 		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
@@ -68,6 +71,9 @@
 		FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoopsTips.swift; sourceTree = "<group>"; };
 		FD3E7624293CB1900024CC49 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		FD3E7626293CB1900024CC49 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FD428B552979647D00A19CFC /* ImageCroppingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCroppingTool.swift; sourceTree = "<group>"; };
+		FD428B572979649C00A19CFC /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		FD428B59297969EE00A19CFC /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
 		FD570F102947575200072769 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
@@ -177,6 +183,32 @@
 				FD3E7626293CB1900024CC49 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD428B522979640400A19CFC /* ImageCroppingTool */ = {
+			isa = PBXGroup;
+			children = (
+				FD428B542979643200A19CFC /* Model */,
+				FD428B532979642E00A19CFC /* View */,
+			);
+			path = ImageCroppingTool;
+			sourceTree = "<group>";
+		};
+		FD428B532979642E00A19CFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD428B552979647D00A19CFC /* ImageCroppingTool.swift */,
+				FD428B59297969EE00A19CFC /* CustomImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD428B542979643200A19CFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD428B572979649C00A19CFC /* Crop.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FD570F0F2947573F00072769 /* SpecialEffects */ = {
@@ -333,6 +365,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD428B522979640400A19CFC /* ImageCroppingTool */,
 				FDA1F52429781CC500C3C137 /* ShapeMorphing */,
 				FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */,
 			);
@@ -533,12 +566,15 @@
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
+				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
+				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
 				FDF036C229179913000D3F87 /* ContentView.swift in Sources */,
 				FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */,
+				FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */,
 				FD606356292F9AA4006A26FF /* NavigationSplitAPI.swift in Sources */,
 				FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */,
 				FD62CF3C293B78EE00C4ED1E /* Shadows.swift in Sources */,
@@ -679,6 +715,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -711,6 +748,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
