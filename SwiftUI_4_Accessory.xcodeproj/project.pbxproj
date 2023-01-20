@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */; };
 		FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */; };
 		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPicker.swift; sourceTree = "<group>"; };
 		FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSeanAllen.swift; sourceTree = "<group>"; };
 		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegtesProtocol.swift; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD03D59A297AB0B7005184D5 /* DropDownPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */,
+			);
+			path = DropDownPicker;
+			sourceTree = "<group>";
+		};
 		FD12388C294DD925009B5672 /* NavigationStackSeanAllen */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +375,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD03D59A297AB0B7005184D5 /* DropDownPicker */,
 				FD428B522979640400A19CFC /* ImageCroppingTool */,
 				FDA1F52429781CC500C3C137 /* ShapeMorphing */,
 				FDADB09A2977EF0000FB9CE4 /* CollapsibleHeaderMenu */,
@@ -566,6 +577,7 @@
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
+				FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */,
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
 				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,

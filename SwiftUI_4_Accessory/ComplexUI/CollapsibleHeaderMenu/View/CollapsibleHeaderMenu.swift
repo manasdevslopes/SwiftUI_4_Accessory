@@ -55,7 +55,7 @@ struct CollapsibleHeaderMenu: View {
     }
     .frame(maxHeight: .infinity, alignment: .top)
     .background(
-      Color("BG")
+      Color("BGLight")
         .ignoresSafeArea()
     )
   }
