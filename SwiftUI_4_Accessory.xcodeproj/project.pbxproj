@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */; };
+		FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D59F297AC0AE005184D5 /* AutoOTPTextField.swift */; };
 		FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */; };
 		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */; };
@@ -65,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPicker.swift; sourceTree = "<group>"; };
+		FD03D59F297AC0AE005184D5 /* AutoOTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPTextField.swift; sourceTree = "<group>"; };
 		FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSeanAllen.swift; sourceTree = "<group>"; };
 		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegtesProtocol.swift; sourceTree = "<group>"; };
@@ -127,6 +129,22 @@
 				FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */,
 			);
 			path = DropDownPicker;
+			sourceTree = "<group>";
+		};
+		FD03D59D297AC080005184D5 /* AutoOTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D59E297AC0A1005184D5 /* View */,
+			);
+			path = AutoOTPTextField;
+			sourceTree = "<group>";
+		};
+		FD03D59E297AC0A1005184D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D59F297AC0AE005184D5 /* AutoOTPTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FD12388C294DD925009B5672 /* NavigationStackSeanAllen */ = {
@@ -375,6 +393,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD03D59D297AC080005184D5 /* AutoOTPTextField */,
 				FD03D59A297AB0B7005184D5 /* DropDownPicker */,
 				FD428B522979640400A19CFC /* ImageCroppingTool */,
 				FDA1F52429781CC500C3C137 /* ShapeMorphing */,
@@ -568,6 +587,7 @@
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
 				FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */,
+				FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */,
 				FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */,
 				FD606362292FAF5D006A26FF /* ShareLinkAPI.swift in Sources */,
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
