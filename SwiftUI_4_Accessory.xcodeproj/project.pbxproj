@@ -100,6 +100,7 @@
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
 		FDA1F52529781D0F00C3C137 /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
 		FDA1F52829781E3800C3C137 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-4-Accessory-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
@@ -471,6 +472,7 @@
 		FDF036BE29179913000D3F87 /* SwiftUI_4_Accessory */ = {
 			isa = PBXGroup;
 			children = (
+				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
 				FDADB0992977EEEC00FB9CE4 /* ComplexUI */,
@@ -744,15 +746,16 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-4-Accessory-Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) wants to pic image from your gallery";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -777,15 +780,16 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-4-Accessory-Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WeatherApp requires your location";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WeatherApp need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "We need to read your movements";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) wants to pic image from your gallery";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
