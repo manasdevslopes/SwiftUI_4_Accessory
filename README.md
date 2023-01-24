@@ -64,5 +64,9 @@
      
      6. iOS Popovers
      
+**19. Architectures**
      
+     1. MVVM - Model View ViewModel
+     
+     2. MV - Model View
 
