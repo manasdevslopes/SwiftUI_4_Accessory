@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  @StateObject private var storeModel = StoreModel()
+  
   var body: some View {
 //    if #available(iOS 15, *) {
 //      NavigationView {
@@ -22,9 +24,11 @@ struct ContentView: View {
 //          .toolbar(.hidden, for: .navigationBar)
 //      }
 //    }
-    NavigationStack {
-      NativePopover()
-    }
+//    NavigationStack {
+//      NativePopover()
+//    }
+    ModelViewViews()
+      .environmentObject(storeModel)
   }
 }
 
