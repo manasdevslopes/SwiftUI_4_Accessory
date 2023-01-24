@@ -12,6 +12,7 @@
 		FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */; };
 		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */; };
+		FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14E38E29800A2F00F73224 /* NativePopover.swift */; };
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
 		FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */; };
@@ -70,6 +71,7 @@
 		FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSeanAllen.swift; sourceTree = "<group>"; };
 		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegtesProtocol.swift; sourceTree = "<group>"; };
+		FD14E38E29800A2F00F73224 /* NativePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopover.swift; sourceTree = "<group>"; };
 		FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftViewsChart.swift; sourceTree = "<group>"; };
 		FD354EA62943243000B3BD6E /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
 		FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoopsTips.swift; sourceTree = "<group>"; };
@@ -170,6 +172,22 @@
 				FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */,
 			);
 			path = DelegtesProtocol;
+			sourceTree = "<group>";
+		};
+		FD14E38C298009EC00F73224 /* NativePopover */ = {
+			isa = PBXGroup;
+			children = (
+				FD14E38D29800A2600F73224 /* View */,
+			);
+			path = NativePopover;
+			sourceTree = "<group>";
+		};
+		FD14E38D29800A2600F73224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD14E38E29800A2F00F73224 /* NativePopover.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FD354EA3294323FE00B3BD6E /* KavsoftViewsChart */ = {
@@ -394,6 +412,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD14E38C298009EC00F73224 /* NativePopover */,
 				FD03D59D297AC080005184D5 /* AutoOTPTextField */,
 				FD03D59A297AB0B7005184D5 /* DropDownPicker */,
 				FD428B522979640400A19CFC /* ImageCroppingTool */,
@@ -587,6 +606,7 @@
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
+				FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
 				FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */,
 				FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */,

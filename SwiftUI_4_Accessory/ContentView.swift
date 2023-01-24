@@ -9,18 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    if #available(iOS 15, *) {
-      NavigationView {
-        AutoOTPTextField()
-          .navigationBarTitleDisplayMode(.inline)
-          .navigationBarHidden(true)
-      }
-    } else {
-      NavigationStack {
-        AutoOTPTextField()
-          .navigationBarTitleDisplayMode(.inline)
-          .toolbar(.hidden, for: .navigationBar)
-      }
+//    if #available(iOS 15, *) {
+//      NavigationView {
+//        AutoOTPTextField()
+//          .navigationBarTitleDisplayMode(.inline)
+//          .navigationBarHidden(true)
+//      }
+//    } else {
+//      NavigationStack {
+//        AutoOTPTextField()
+//          .navigationBarTitleDisplayMode(.inline)
+//          .toolbar(.hidden, for: .navigationBar)
+//      }
+//    }
+    NavigationStack {
+      NativePopover()
     }
   }
 }
