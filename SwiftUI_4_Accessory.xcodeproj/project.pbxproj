@@ -39,6 +39,7 @@
 		FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */; };
 		FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF49293B886A00C4ED1E /* Texts.swift */; };
 		FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */; };
+		FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E12BC298123190006C330 /* ContainerPatternView.swift */; };
 		FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52529781D0F00C3C137 /* MorphingView.swift */; };
 		FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52829781E3800C3C137 /* CustomShape.swift */; };
 		FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFD92980281400360E8B /* Webservice.swift */; };
@@ -105,6 +106,7 @@
 		FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		FD62CF49293B886A00C4ED1E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
+		FD7E12BC298123190006C330 /* ContainerPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPatternView.swift; sourceTree = "<group>"; };
 		FDA1F52529781D0F00C3C137 /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
 		FDA1F52829781E3800C3C137 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		FDA4CFD92980281400360E8B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
@@ -402,6 +404,22 @@
 			path = Texts;
 			sourceTree = "<group>";
 		};
+		FD7E12BA298122A10006C330 /* ContainerPattern */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E12BB298123100006C330 /* View */,
+			);
+			path = ContainerPattern;
+			sourceTree = "<group>";
+		};
+		FD7E12BB298123100006C330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E12BC298123190006C330 /* ContainerPatternView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FDA1F52429781CC500C3C137 /* ShapeMorphing */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +440,7 @@
 		FDA4CFD5298027C600360E8B /* Architectures */ = {
 			isa = PBXGroup;
 			children = (
+				FD7E12BA298122A10006C330 /* ContainerPattern */,
 				FDA4CFE329802DEE00360E8B /* ModelView */,
 				FDA4CFD6298027D100360E8B /* MVVM */,
 			);
@@ -685,6 +704,7 @@
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */,
+				FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
 				FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */,

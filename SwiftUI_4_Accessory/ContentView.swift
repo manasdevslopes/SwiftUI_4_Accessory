@@ -27,8 +27,9 @@ struct ContentView: View {
 //    NavigationStack {
 //      NativePopover()
 //    }
-    ModelViewViews()
-      .environmentObject(storeModel)
+//    ModelViewViews()
+//      .environmentObject(storeModel)
+    ContainerPatternView()
   }
 }
 
