@@ -69,4 +69,8 @@
      1. MVVM - Model View ViewModel
      
      2. MV - Model View
+     
+     3. Container Pattern
+     
+     
 
