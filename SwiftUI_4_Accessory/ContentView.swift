@@ -32,11 +32,14 @@ struct ContentView: View {
 //    ContainerPatternView()
     
     /// - ReduxView
-    let store = Store(reducer: appReducer, state: AppState(), middlewares: [productsMiddleware()])
-    NavigationStack {
-      ReduxView()
-        .environmentObject(store)
-    }
+//    let store = Store(reducer: appReducer, state: AppState(), middlewares: [productsMiddleware()])
+//    NavigationStack {
+//      ReduxView()
+//        .environmentObject(store)
+//    }
+    
+    SharedTransitionMatchedGeometryEffectView()
+      .preferredColorScheme(.light)
   }
 }
 
