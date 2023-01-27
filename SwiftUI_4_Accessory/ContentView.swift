@@ -29,7 +29,14 @@ struct ContentView: View {
 //    }
 //    ModelViewViews()
 //      .environmentObject(storeModel)
-    ContainerPatternView()
+//    ContainerPatternView()
+    
+    /// - ReduxView
+    let store = Store(reducer: appReducer, state: AppState(), middlewares: [productsMiddleware()])
+    NavigationStack {
+      ReduxView()
+        .environmentObject(store)
+    }
   }
 }
 
