@@ -72,5 +72,6 @@
      
      3. Container Pattern
      
+     4. Redux Structure
      
 
