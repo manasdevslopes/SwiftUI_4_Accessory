@@ -40,6 +40,8 @@
 		FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B552979647D00A19CFC /* ImageCroppingTool.swift */; };
 		FD428B582979649C00A19CFC /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B572979649C00A19CFC /* Crop.swift */; };
 		FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B59297969EE00A19CFC /* CustomImagePicker.swift */; };
+		FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F783E298515F900A7AC7F /* TableUser.swift */; };
+		FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F7840298516DE00A7AC7F /* TableView.swift */; };
 		FD570F112947575200072769 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F102947575200072769 /* Particle.swift */; };
 		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
 		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
@@ -130,6 +132,8 @@
 		FD428B552979647D00A19CFC /* ImageCroppingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCroppingTool.swift; sourceTree = "<group>"; };
 		FD428B572979649C00A19CFC /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
 		FD428B59297969EE00A19CFC /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
+		FD4F783E298515F900A7AC7F /* TableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUser.swift; sourceTree = "<group>"; };
+		FD4F7840298516DE00A7AC7F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		FD570F102947575200072769 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
@@ -441,6 +445,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FD4F783D2985159700A7AC7F /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F784229852E5C00A7AC7F /* TableProject */,
+				FD4F783E298515F900A7AC7F /* TableUser.swift */,
+				FD4F7840298516DE00A7AC7F /* TableView.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		FD4F784229852E5C00A7AC7F /* TableProject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableProject;
+			sourceTree = "<group>";
+		};
 		FD570F0F2947573F00072769 /* SpecialEffects */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +476,7 @@
 		FD606351292F95B7006A26FF /* SwiftUI4 */ = {
 			isa = PBXGroup;
 			children = (
+				FD4F783D2985159700A7AC7F /* Tables */,
 				FDC2EB29293E334700086E71 /* WeatherKits */,
 				FDE34C4D2940BBFA0083C126 /* Charts */,
 				FDC2EB26293E2F6D00086E71 /* Regexs */,
@@ -893,6 +915,7 @@
 				FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
 				FD62CF44293B7D9200C4ED1E /* StoreKitReviewAPI.swift in Sources */,
+				FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */,
 				FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */,
 				FDA4CFDF2980296700360E8B /* MVVMView.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
@@ -921,6 +944,7 @@
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
 				FD391DC32984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift in Sources */,
+				FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
 				FD391DA72983D6A8003CCE6E /* WebServices.swift in Sources */,

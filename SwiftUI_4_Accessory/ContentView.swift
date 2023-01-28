@@ -38,8 +38,12 @@ struct ContentView: View {
 //        .environmentObject(store)
 //    }
     
-    SharedTransitionMatchedGeometryEffectView()
-      .preferredColorScheme(.light)
+//    SharedTransitionMatchedGeometryEffectView()
+//      .preferredColorScheme(.light)
+    
+    NavigationStack {
+      TableView()
+    }
   }
 }
 
