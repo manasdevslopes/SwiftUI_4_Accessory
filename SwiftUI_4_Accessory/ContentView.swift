@@ -41,9 +41,10 @@ struct ContentView: View {
 //    SharedTransitionMatchedGeometryEffectView()
 //      .preferredColorScheme(.light)
     
-    NavigationStack {
-      TableView()
-    }
+//    NavigationStack {
+//      TableView()
+//    }
+    StartView()
   }
 }
 

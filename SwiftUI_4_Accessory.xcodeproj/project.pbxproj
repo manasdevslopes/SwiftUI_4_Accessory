@@ -42,6 +42,11 @@
 		FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B59297969EE00A19CFC /* CustomImagePicker.swift */; };
 		FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F783E298515F900A7AC7F /* TableUser.swift */; };
 		FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F7840298516DE00A7AC7F /* TableView.swift */; };
+		FD4F784529852EFC00A7AC7F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784429852EFC00A7AC7F /* City.swift */; };
+		FD4F784829852FE100A7AC7F /* CountryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784729852FE100A7AC7F /* CountryTableView.swift */; };
+		FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784929852FF000A7AC7F /* CountrySplitView.swift */; };
+		FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784B29852FFC00A7AC7F /* StartView.swift */; };
+		FD4F784F2985311200A7AC7F /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784E2985311200A7AC7F /* CityView.swift */; };
 		FD570F112947575200072769 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F102947575200072769 /* Particle.swift */; };
 		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
 		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
@@ -134,6 +139,11 @@
 		FD428B59297969EE00A19CFC /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
 		FD4F783E298515F900A7AC7F /* TableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUser.swift; sourceTree = "<group>"; };
 		FD4F7840298516DE00A7AC7F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		FD4F784429852EFC00A7AC7F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		FD4F784729852FE100A7AC7F /* CountryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableView.swift; sourceTree = "<group>"; };
+		FD4F784929852FF000A7AC7F /* CountrySplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySplitView.swift; sourceTree = "<group>"; };
+		FD4F784B29852FFC00A7AC7F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		FD4F784E2985311200A7AC7F /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		FD570F102947575200072769 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
@@ -458,8 +468,37 @@
 		FD4F784229852E5C00A7AC7F /* TableProject */ = {
 			isa = PBXGroup;
 			children = (
+				FD4F784629852FC700A7AC7F /* Views */,
+				FD4F784329852EEE00A7AC7F /* Model */,
 			);
 			path = TableProject;
+			sourceTree = "<group>";
+		};
+		FD4F784329852EEE00A7AC7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F784429852EFC00A7AC7F /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD4F784629852FC700A7AC7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F784D298530DC00A7AC7F /* Component */,
+				FD4F784B29852FFC00A7AC7F /* StartView.swift */,
+				FD4F784729852FE100A7AC7F /* CountryTableView.swift */,
+				FD4F784929852FF000A7AC7F /* CountrySplitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD4F784D298530DC00A7AC7F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F784E2985311200A7AC7F /* CityView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		FD570F0F2947573F00072769 /* SpecialEffects */ = {
@@ -911,6 +950,7 @@
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */,
+				FD4F784829852FE100A7AC7F /* CountryTableView.swift in Sources */,
 				FD391D9E2983D116003CCE6E /* ProductsReducer.swift in Sources */,
 				FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */,
 				FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */,
@@ -947,15 +987,19 @@
 				FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
+				FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */,
 				FD391DA72983D6A8003CCE6E /* WebServices.swift in Sources */,
 				FDF036C229179913000D3F87 /* ContentView.swift in Sources */,
 				FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */,
 				FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */,
 				FD606356292F9AA4006A26FF /* NavigationSplitAPI.swift in Sources */,
 				FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */,
+				FD4F784F2985311200A7AC7F /* CityView.swift in Sources */,
 				FD62CF3C293B78EE00C4ED1E /* Shadows.swift in Sources */,
 				FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */,
 				FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */,
+				FD4F784529852EFC00A7AC7F /* City.swift in Sources */,
+				FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */,
 				FD62CF3A293B780400C4ED1E /* Gradients.swift in Sources */,
 				FD391DA02983D120003CCE6E /* RootReducer.swift in Sources */,
 				FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */,
@@ -1097,8 +1141,8 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1131,8 +1175,8 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
