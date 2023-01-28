@@ -75,3 +75,5 @@
      4. Redux Structure
      
 **20. Shared Transitions Matched Geometry Effect**
+
+**21. Table View Normal and with SplitView**
