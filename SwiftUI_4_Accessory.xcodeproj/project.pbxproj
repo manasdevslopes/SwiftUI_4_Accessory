@@ -80,6 +80,9 @@
 		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
 		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
 		FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2EB27293E2F7900086E71 /* Regexs.swift */; };
+		FDD1BDB92987B5F900D614DE /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDB82987B5F900D614DE /* FileImporter.swift */; };
+		FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDBB2987BC9800D614DE /* FileExporter.swift */; };
+		FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDBD2987CA3800D614DE /* AppReviews.swift */; };
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
 		FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */; };
 		FDF036C229179913000D3F87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036C129179913000D3F87 /* ContentView.swift */; };
@@ -178,6 +181,9 @@
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
+		FDD1BDB82987B5F900D614DE /* FileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporter.swift; sourceTree = "<group>"; };
+		FDD1BDBB2987BC9800D614DE /* FileExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExporter.swift; sourceTree = "<group>"; };
+		FDD1BDBD2987CA3800D614DE /* AppReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviews.swift; sourceTree = "<group>"; };
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
 		FDF036BC29179913000D3F87 /* SwiftUI_4_Accessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_4_Accessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_4_AccessoryApp.swift; sourceTree = "<group>"; };
@@ -792,6 +798,16 @@
 			path = WeatherKits;
 			sourceTree = "<group>";
 		};
+		FDD1BDB72987B51D00D614DE /* UnderratedModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FDD1BDB82987B5F900D614DE /* FileImporter.swift */,
+				FDD1BDBB2987BC9800D614DE /* FileExporter.swift */,
+				FDD1BDBD2987CA3800D614DE /* AppReviews.swift */,
+			);
+			path = UnderratedModifiers;
+			sourceTree = "<group>";
+		};
 		FDE34C4D2940BBFA0083C126 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
@@ -824,6 +840,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FDD1BDB72987B51D00D614DE /* UnderratedModifiers */,
 				FD391DAE298411DD003CCE6E /* SharedTransitionsMatchhedGeometryEffecct */,
 				FDA4CFD5298027C600360E8B /* Architectures */,
 				FDADB0992977EEEC00FB9CE4 /* ComplexUI */,
@@ -973,18 +990,21 @@
 				FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD391DAD2983D93D003CCE6E /* ReduxView.swift in Sources */,
+				FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */,
 				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
 				FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */,
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
 				FD9E951E29841B69009B2537 /* CardView.swift in Sources */,
 				FD391D972983CF1C003CCE6E /* Index_action.swift in Sources */,
 				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
+				FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */,
 				FD391DAB2983D7DD003CCE6E /* Index_store.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
 				FD391DC32984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift in Sources */,
 				FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */,
+				FDD1BDB92987B5F900D614DE /* FileImporter.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
 				FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */,

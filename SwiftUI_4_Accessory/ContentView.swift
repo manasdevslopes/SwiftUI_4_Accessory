@@ -44,7 +44,10 @@ struct ContentView: View {
 //    NavigationStack {
 //      TableView()
 //    }
-    StartView()
+//    StartView()
+//    FileImporter()
+//    FileExporter()
+    AppReviews()
   }
 }
 
