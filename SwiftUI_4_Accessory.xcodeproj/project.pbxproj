@@ -36,6 +36,9 @@
 		FD391DBD29841235003CCE6E /* Reel3.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FD391DB629841235003CCE6E /* Reel3.MP4 */; };
 		FD391DC129841281003CCE6E /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391DC029841281003CCE6E /* VideoFile.swift */; };
 		FD391DC32984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391DC22984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift */; };
+		FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3BB4AA299E4AE10016232E /* DogView.swift */; };
+		FD3BB4AD299E4AEF0016232E /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3BB4AC299E4AEF0016232E /* Dog.swift */; };
+		FD3BB4AF299E4AFE0016232E /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3BB4AE299E4AFE0016232E /* DogViewModel.swift */; };
 		FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */; };
 		FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B552979647D00A19CFC /* ImageCroppingTool.swift */; };
 		FD428B582979649C00A19CFC /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B572979649C00A19CFC /* Crop.swift */; };
@@ -67,6 +70,8 @@
 		FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */; };
 		FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF49293B886A00C4ED1E /* Texts.swift */; };
 		FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */; };
+		FD7C763D299E5053000AA1AA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C763B299E5053000AA1AA /* Log.swift */; };
+		FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */; };
 		FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E12BC298123190006C330 /* ContainerPatternView.swift */; };
 		FD9E951E29841B69009B2537 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951D29841B69009B2537 /* CardView.swift */; };
 		FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */; };
@@ -134,6 +139,9 @@
 		FD391DB629841235003CCE6E /* Reel3.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel3.MP4; sourceTree = "<group>"; };
 		FD391DC029841281003CCE6E /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 		FD391DC22984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTransitionMatchedGeometryEffectView.swift; sourceTree = "<group>"; };
+		FD3BB4AA299E4AE10016232E /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
+		FD3BB4AC299E4AEF0016232E /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		FD3BB4AE299E4AFE0016232E /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 		FD3E7618293CAA340024CC49 /* ForLoopsTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoopsTips.swift; sourceTree = "<group>"; };
 		FD3E7624293CB1900024CC49 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		FD3E7626293CB1900024CC49 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -167,6 +175,8 @@
 		FD62CF46293B86CE00C4ED1E /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		FD62CF49293B886A00C4ED1E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FD62CF4B293B8BEE00C4ED1E /* ToggleAtOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAtOnce.swift; sourceTree = "<group>"; };
+		FD7C763B299E5053000AA1AA /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
 		FD7E12BC298123190006C330 /* ContainerPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPatternView.swift; sourceTree = "<group>"; };
 		FD9E951D29841B69009B2537 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
@@ -418,6 +428,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FD3BB4A8299E4AAA0016232E /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				FD3BB4A9299E4AC30016232E /* Thread_Queue_GCD_Sync_Async */,
+			);
+			path = Concepts;
+			sourceTree = "<group>";
+		};
+		FD3BB4A9299E4AC30016232E /* Thread_Queue_GCD_Sync_Async */ = {
+			isa = PBXGroup;
+			children = (
+				FD3BB4AA299E4AE10016232E /* DogView.swift */,
+				FD3BB4AC299E4AEF0016232E /* Dog.swift */,
+				FD3BB4AE299E4AFE0016232E /* DogViewModel.swift */,
+				FD7C763A299E5053000AA1AA /* Utitlities */,
+			);
+			path = Thread_Queue_GCD_Sync_Async;
+			sourceTree = "<group>";
+		};
 		FD3E7617293CAA1B0024CC49 /* ForLoopsTips */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +671,15 @@
 			path = Texts;
 			sourceTree = "<group>";
 		};
+		FD7C763A299E5053000AA1AA /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C763B299E5053000AA1AA /* Log.swift */,
+				FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */,
+			);
+			path = Utitlities;
+			sourceTree = "<group>";
+		};
 		FD7E12BA298122A10006C330 /* ContainerPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,6 +878,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FD3BB4A8299E4AAA0016232E /* Concepts */,
 				FDD1BDB72987B51D00D614DE /* UnderratedModifiers */,
 				FD391DAE298411DD003CCE6E /* SharedTransitionsMatchhedGeometryEffecct */,
 				FDA4CFD5298027C600360E8B /* Architectures */,
@@ -951,6 +990,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD391D9A2983D015003CCE6E /* ReduxStates.swift in Sources */,
+				FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */,
 				FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
 				FD570F112947575200072769 /* Particle.swift in Sources */,
@@ -986,6 +1026,7 @@
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
 				FD391D9C2983D024003CCE6E /* Index_reduxState.swift in Sources */,
+				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
@@ -1006,6 +1047,7 @@
 				FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */,
 				FDD1BDB92987B5F900D614DE /* FileImporter.swift in Sources */,
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
+				FD7C763D299E5053000AA1AA /* Log.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
 				FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */,
 				FD391DA72983D6A8003CCE6E /* WebServices.swift in Sources */,
@@ -1017,8 +1059,10 @@
 				FD4F784F2985311200A7AC7F /* CityView.swift in Sources */,
 				FD62CF3C293B78EE00C4ED1E /* Shadows.swift in Sources */,
 				FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */,
+				FD3BB4AD299E4AEF0016232E /* Dog.swift in Sources */,
 				FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */,
 				FD4F784529852EFC00A7AC7F /* City.swift in Sources */,
+				FD3BB4AF299E4AFE0016232E /* DogViewModel.swift in Sources */,
 				FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */,
 				FD62CF3A293B780400C4ED1E /* Gradients.swift in Sources */,
 				FD391DA02983D120003CCE6E /* RootReducer.swift in Sources */,

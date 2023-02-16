@@ -47,7 +47,9 @@ struct ContentView: View {
 //    StartView()
 //    FileImporter()
 //    FileExporter()
-    AppReviews()
+//    AppReviews()
+//    ImageCroppingTool()
+    DogView()
   }
 }
 
