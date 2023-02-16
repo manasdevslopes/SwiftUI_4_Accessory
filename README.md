@@ -86,4 +86,7 @@
      
      3. App Review
 
+**23. Concepts**
 
+     1. Threads, Queues, GCD, Sync and Async
+     
