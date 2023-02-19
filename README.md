@@ -90,3 +90,5 @@
 
      1. Threads, Queues, GCD, Sync and Async
      
+     2. Memory Management - ARC, strong, weak and unowned reference
+     
