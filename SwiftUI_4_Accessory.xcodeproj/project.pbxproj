@@ -93,6 +93,7 @@
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
 		FDEE9B0529ADEE00008E9E5D /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */; };
 		FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */; };
+		FDEE9B0A29AE164E008E9E5D /* TaskAndDottask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */; };
 		FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */; };
 		FDF036C229179913000D3F87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036C129179913000D3F87 /* ContentView.swift */; };
 		FDF036C429179917000D3F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C329179917000D3F87 /* Assets.xcassets */; };
@@ -203,6 +204,7 @@
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
 		FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAndDottask.swift; sourceTree = "<group>"; };
 		FDF036BC29179913000D3F87 /* SwiftUI_4_Accessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_4_Accessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_4_AccessoryApp.swift; sourceTree = "<group>"; };
 		FDF036C129179913000D3F87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -834,6 +836,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FDEE9B0829AE163D008E9E5D /* TaskAndDottask */,
 				FDEE9B0329ADEDF1008E9E5D /* AsyncAwait */,
 				FDC0CC9E29ACDCD100615397 /* DoTryCatchThrows */,
 			);
@@ -897,6 +900,14 @@
 				FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */,
 			);
 			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		FDEE9B0829AE163D008E9E5D /* TaskAndDottask */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */,
+			);
+			path = TaskAndDottask;
 			sourceTree = "<group>";
 		};
 		FDF036B329179913000D3F87 = {
@@ -1112,6 +1123,7 @@
 				FD4F784529852EFC00A7AC7F /* City.swift in Sources */,
 				FD3BB4AF299E4AFE0016232E /* DogViewModel.swift in Sources */,
 				FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */,
+				FDEE9B0A29AE164E008E9E5D /* TaskAndDottask.swift in Sources */,
 				FD62CF3A293B780400C4ED1E /* Gradients.swift in Sources */,
 				FD391DA02983D120003CCE6E /* RootReducer.swift in Sources */,
 				FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */,

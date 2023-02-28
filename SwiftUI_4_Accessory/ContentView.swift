@@ -49,8 +49,9 @@ struct ContentView: View {
 //    FileExporter()
 //    AppReviews()
 //    ImageCroppingTool()
-    DogView()
+//    DogView()
 //    MemoryManagement()
+    TaskAndDottaskHomeView()
   }
 }
 
