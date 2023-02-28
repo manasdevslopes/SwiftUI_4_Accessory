@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */; };
 		FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D59F297AC0AE005184D5 /* AutoOTPTextField.swift */; };
+		FD045C3C29AE4FE2006E04B4 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD045C3B29AE4FE2006E04B4 /* AsyncLetBootcamp.swift */; };
 		FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */; };
 		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */; };
@@ -117,6 +118,7 @@
 /* Begin PBXFileReference section */
 		FD03D59B297AB0E2005184D5 /* DropDownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPicker.swift; sourceTree = "<group>"; };
 		FD03D59F297AC0AE005184D5 /* AutoOTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPTextField.swift; sourceTree = "<group>"; };
+		FD045C3B29AE4FE2006E04B4 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 		FD12388D294DD947009B5672 /* NavigationStackSeanAllen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSeanAllen.swift; sourceTree = "<group>"; };
 		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegtesProtocol.swift; sourceTree = "<group>"; };
@@ -906,6 +908,7 @@
 			isa = PBXGroup;
 			children = (
 				FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */,
+				FD045C3B29AE4FE2006E04B4 /* AsyncLetBootcamp.swift */,
 			);
 			path = TaskAndDottask;
 			sourceTree = "<group>";
@@ -1085,6 +1088,7 @@
 				FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
+				FD045C3C29AE4FE2006E04B4 /* AsyncLetBootcamp.swift in Sources */,
 				FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD391DAD2983D93D003CCE6E /* ReduxView.swift in Sources */,
