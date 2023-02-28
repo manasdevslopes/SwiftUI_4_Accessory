@@ -97,3 +97,5 @@
           a. do, try, try?, try!, catch & throws
           
           b. Async Await Basic knowledge
+          
+          c. Task, .task, cancel task, priority task
