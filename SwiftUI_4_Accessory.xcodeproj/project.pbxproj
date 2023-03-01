@@ -51,6 +51,7 @@
 		FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784929852FF000A7AC7F /* CountrySplitView.swift */; };
 		FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784B29852FFC00A7AC7F /* StartView.swift */; };
 		FD4F784F2985311200A7AC7F /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784E2985311200A7AC7F /* CityView.swift */; };
+		FD528AEC29AF732800AF64FC /* StructClassActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD528AEB29AF732800AF64FC /* StructClassActorBootcamp.swift */; };
 		FD570F112947575200072769 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F102947575200072769 /* Particle.swift */; };
 		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
 		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
@@ -164,6 +165,7 @@
 		FD4F784929852FF000A7AC7F /* CountrySplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySplitView.swift; sourceTree = "<group>"; };
 		FD4F784B29852FFC00A7AC7F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		FD4F784E2985311200A7AC7F /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		FD528AEB29AF732800AF64FC /* StructClassActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorBootcamp.swift; sourceTree = "<group>"; };
 		FD570F102947575200072769 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
@@ -562,6 +564,14 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		FD528AEA29AF72E400AF64FC /* ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory */ = {
+			isa = PBXGroup;
+			children = (
+				FD528AEB29AF732800AF64FC /* StructClassActorBootcamp.swift */,
+			);
+			path = ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory;
+			sourceTree = "<group>";
+		};
 		FD570F0F2947573F00072769 /* SpecialEffects */ = {
 			isa = PBXGroup;
 			children = (
@@ -866,6 +876,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FD528AEA29AF72E400AF64FC /* ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory */,
 				FDA048C729AF62B300A851B8 /* CheckedContinuation */,
 				FDA048C429AF4E0A00A851B8 /* TaskGroup */,
 				FD045C3D29AE5BD0006E04B4 /* AsyncLetBootcamp */,
@@ -1160,6 +1171,7 @@
 				FD3BB4AF299E4AFE0016232E /* DogViewModel.swift in Sources */,
 				FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */,
 				FDEE9B0A29AE164E008E9E5D /* TaskAndDottask.swift in Sources */,
+				FD528AEC29AF732800AF64FC /* StructClassActorBootcamp.swift in Sources */,
 				FD62CF3A293B780400C4ED1E /* Gradients.swift in Sources */,
 				FD391DA02983D120003CCE6E /* RootReducer.swift in Sources */,
 				FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */,
