@@ -102,4 +102,8 @@
           
           d. async let - Call multiple async Tasks all at the same time
           
+          e. TaskGroup - Many calls async & there is a check if some api's failing, others should work.
+          
+          
+          
           
