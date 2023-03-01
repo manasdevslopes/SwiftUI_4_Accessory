@@ -106,6 +106,8 @@
           
           f. Continuations - to convert non-async code to async code
           
+          g. Struct Vs Classes Vs Actors, ValueType Vs ReferenceType, Stack Vs Heap, ARC - Strong, Weak Reference in Memory
+          
           
           
           
