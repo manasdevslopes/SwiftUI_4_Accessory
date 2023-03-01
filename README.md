@@ -104,6 +104,8 @@
           
           e. TaskGroup - Many calls async & there is a check if some api's failing, others should work.
           
+          f. Continuations - to convert non-async code to async code
+          
           
           
           
