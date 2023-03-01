@@ -77,6 +77,7 @@
 		FD9E951E29841B69009B2537 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951D29841B69009B2537 /* CardView.swift */; };
 		FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */; };
 		FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */; };
+		FDA048C929AF62CC00A851B8 /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA048C829AF62CC00A851B8 /* CheckedContinuation.swift */; };
 		FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52529781D0F00C3C137 /* MorphingView.swift */; };
 		FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1F52829781E3800C3C137 /* CustomShape.swift */; };
 		FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFD92980281400360E8B /* Webservice.swift */; };
@@ -189,6 +190,7 @@
 		FD9E951D29841B69009B2537 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
+		FDA048C829AF62CC00A851B8 /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		FDA1F52529781D0F00C3C137 /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
 		FDA1F52829781E3800C3C137 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		FDA4CFD92980281400360E8B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
@@ -728,6 +730,14 @@
 			path = TaskGroup;
 			sourceTree = "<group>";
 		};
+		FDA048C729AF62B300A851B8 /* CheckedContinuation */ = {
+			isa = PBXGroup;
+			children = (
+				FDA048C829AF62CC00A851B8 /* CheckedContinuation.swift */,
+			);
+			path = CheckedContinuation;
+			sourceTree = "<group>";
+		};
 		FDA1F52429781CC500C3C137 /* ShapeMorphing */ = {
 			isa = PBXGroup;
 			children = (
@@ -856,6 +866,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FDA048C729AF62B300A851B8 /* CheckedContinuation */,
 				FDA048C429AF4E0A00A851B8 /* TaskGroup */,
 				FD045C3D29AE5BD0006E04B4 /* AsyncLetBootcamp */,
 				FDEE9B0829AE163D008E9E5D /* TaskAndDottask */,
@@ -1078,6 +1089,7 @@
 				FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */,
 				FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
+				FDA048C929AF62CC00A851B8 /* CheckedContinuation.swift in Sources */,
 				FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */,
 				FD391DA22983D502003CCE6E /* ProductsMiddleware.swift in Sources */,
 				FD391DA92983D787003CCE6E /* Stores.swift in Sources */,
