@@ -104,6 +104,7 @@
 		FDF036C429179917000D3F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C329179917000D3F87 /* Assets.xcassets */; };
 		FDF036C729179917000D3F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C629179917000D3F87 /* Preview Assets.xcassets */; };
 		FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036CE29179B34000D3F87 /* NewLayoutAPI.swift */; };
+		FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA5B6129B0E53F005DF86F /* GlobalActors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -221,6 +222,7 @@
 		FDF036C329179917000D3F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF036C629179917000D3F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDF036CE29179B34000D3F87 /* NewLayoutAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLayoutAPI.swift; sourceTree = "<group>"; };
+		FDFA5B6129B0E53F005DF86F /* GlobalActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -886,6 +888,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FDFA5B6029B0E530005DF86F /* GlobalActors */,
 				FDA6A95A29B0A56100924BE7 /* Actors */,
 				FD528AEA29AF72E400AF64FC /* ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory */,
 				FDA048C729AF62B300A851B8 /* CheckedContinuation */,
@@ -1021,6 +1024,14 @@
 			path = NewLayoutAPI;
 			sourceTree = "<group>";
 		};
+		FDFA5B6029B0E530005DF86F /* GlobalActors */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA5B6129B0E53F005DF86F /* GlobalActors.swift */,
+			);
+			path = GlobalActors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1152,6 +1163,7 @@
 				FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */,
 				FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */,
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
+				FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */,
 				FD9E951E29841B69009B2537 /* CardView.swift in Sources */,
 				FD391D972983CF1C003CCE6E /* Index_action.swift in Sources */,
 				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
