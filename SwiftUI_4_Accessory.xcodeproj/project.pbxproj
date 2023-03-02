@@ -75,6 +75,7 @@
 		FD7C763D299E5053000AA1AA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C763B299E5053000AA1AA /* Log.swift */; };
 		FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */; };
 		FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E12BC298123190006C330 /* ContainerPatternView.swift */; };
+		FD81491629B0EF9700AEA914 /* Sendables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81491529B0EF9700AEA914 /* Sendables.swift */; };
 		FD9E951E29841B69009B2537 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951D29841B69009B2537 /* CardView.swift */; };
 		FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */; };
 		FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */; };
@@ -191,6 +192,7 @@
 		FD7C763B299E5053000AA1AA /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
 		FD7E12BC298123190006C330 /* ContainerPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPatternView.swift; sourceTree = "<group>"; };
+		FD81491529B0EF9700AEA914 /* Sendables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sendables.swift; sourceTree = "<group>"; };
 		FD9E951D29841B69009B2537 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
@@ -736,6 +738,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FD81491429B0EF8C00AEA914 /* Sendable */ = {
+			isa = PBXGroup;
+			children = (
+				FD81491529B0EF9700AEA914 /* Sendables.swift */,
+			);
+			path = Sendable;
+			sourceTree = "<group>";
+		};
 		FDA048C429AF4E0A00A851B8 /* TaskGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,6 +898,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FD81491429B0EF8C00AEA914 /* Sendable */,
 				FDFA5B6029B0E530005DF86F /* GlobalActors */,
 				FDA6A95A29B0A56100924BE7 /* Actors */,
 				FD528AEA29AF72E400AF64FC /* ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory */,
@@ -1147,6 +1158,7 @@
 				FD606362292FAF5D006A26FF /* ShareLinkAPI.swift in Sources */,
 				FDA4CFDC2980290D00360E8B /* Product.swift in Sources */,
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
+				FD81491629B0EF9700AEA914 /* Sendables.swift in Sources */,
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
