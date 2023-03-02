@@ -51,7 +51,8 @@ struct ContentView: View {
 //    ImageCroppingTool()
 //    DogView()
 //    MemoryManagement()
-    TaskAndDottaskHomeView()
+//    TaskAndDottaskHomeView()
+    Actors()
   }
 }
 

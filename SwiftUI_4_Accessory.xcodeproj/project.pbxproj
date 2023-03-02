@@ -86,6 +86,7 @@
 		FDA4CFDF2980296700360E8B /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFDE2980296700360E8B /* MVVMView.swift */; };
 		FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE1298029A400360E8B /* ProductListViewModel.swift */; };
 		FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE529802E2400360E8B /* ModelViewViews.swift */; };
+		FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6A95B29B0A56C00924BE7 /* Actors.swift */; };
 		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
 		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
 		FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC0CC9F29ACDCEE00615397 /* DoTryCatchThrows.swift */; };
@@ -200,6 +201,7 @@
 		FDA4CFDE2980296700360E8B /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		FDA4CFE1298029A400360E8B /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		FDA4CFE529802E2400360E8B /* ModelViewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewViews.swift; sourceTree = "<group>"; };
+		FDA6A95B29B0A56C00924BE7 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-4-Accessory-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
@@ -835,6 +837,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FDA6A95A29B0A56100924BE7 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6A95B29B0A56C00924BE7 /* Actors.swift */,
+			);
+			path = Actors;
+			sourceTree = "<group>";
+		};
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -876,6 +886,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FDA6A95A29B0A56100924BE7 /* Actors */,
 				FD528AEA29AF72E400AF64FC /* ClassStructActorValueReferenceStackHeapARCStrongWeakReferenceInMemory */,
 				FDA048C729AF62B300A851B8 /* CheckedContinuation */,
 				FDA048C429AF4E0A00A851B8 /* TaskGroup */,
@@ -1099,6 +1110,7 @@
 				FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */,
 				FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */,
 				FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */,
+				FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
 				FDA048C929AF62CC00A851B8 /* CheckedContinuation.swift in Sources */,
 				FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */,

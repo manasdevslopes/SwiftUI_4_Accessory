@@ -110,7 +110,7 @@ USAGE
  
 Structs - Data Models, Views
 Classes - ViewModels
-ACTORS - Shared 'Manager' and 'Data Store' (Netowrk Manager classes in short)
+ACTORS - Shared 'Manager' and 'Data Store' (Netowrk Manager files in short)
  
  
 */
