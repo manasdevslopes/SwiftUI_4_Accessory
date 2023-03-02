@@ -110,6 +110,10 @@
           
           h. To use Actors and nonisolated in Swift
           
+          i. GlobalActor & MainActor
+          
+          
+          
           
           
           
