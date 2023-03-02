@@ -112,6 +112,9 @@
           
           i. GlobalActor & MainActor
           
+          j. Sendable
+          
+          
           
           
           
