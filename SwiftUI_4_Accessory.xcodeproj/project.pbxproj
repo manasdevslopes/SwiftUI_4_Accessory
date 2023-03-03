@@ -14,6 +14,7 @@
 		FD123891294DEC48009B5672 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123890294DEC48009B5672 /* Closures.swift */; };
 		FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */; };
 		FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14E38E29800A2F00F73224 /* NativePopover.swift */; };
+		FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD268E6329B1E7A400152525 /* AsyncPublishers.swift */; };
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
 		FD391D932983CE97003CCE6E /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391D922983CE97003CCE6E /* Actions.swift */; };
@@ -129,6 +130,7 @@
 		FD123890294DEC48009B5672 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		FD123893294DF9C0009B5672 /* DelegtesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegtesProtocol.swift; sourceTree = "<group>"; };
 		FD14E38E29800A2F00F73224 /* NativePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopover.swift; sourceTree = "<group>"; };
+		FD268E6329B1E7A400152525 /* AsyncPublishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublishers.swift; sourceTree = "<group>"; };
 		FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftViewsChart.swift; sourceTree = "<group>"; };
 		FD354EA62943243000B3BD6E /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
 		FD391D922983CE97003CCE6E /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
@@ -308,6 +310,14 @@
 				FD14E38E29800A2F00F73224 /* NativePopover.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FD268E6229B1E79300152525 /* AsyncPublishers */ = {
+			isa = PBXGroup;
+			children = (
+				FD268E6329B1E7A400152525 /* AsyncPublishers.swift */,
+			);
+			path = AsyncPublishers;
 			sourceTree = "<group>";
 		};
 		FD354EA3294323FE00B3BD6E /* KavsoftViewsChart */ = {
@@ -898,6 +908,7 @@
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				FD268E6229B1E79300152525 /* AsyncPublishers */,
 				FD81491429B0EF8C00AEA914 /* Sendable */,
 				FDFA5B6029B0E530005DF86F /* GlobalActors */,
 				FDA6A95A29B0A56100924BE7 /* Actors */,
@@ -1166,6 +1177,7 @@
 				FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
+				FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */,
 				FD045C3C29AE4FE2006E04B4 /* AsyncLetBootcamp.swift in Sources */,
 				FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
