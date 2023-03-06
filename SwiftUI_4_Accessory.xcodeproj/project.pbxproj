@@ -91,6 +91,7 @@
 		FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6A95B29B0A56C00924BE7 /* Actors.swift */; };
 		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
 		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
+		FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFF6E229B5D85900FC8FC2 /* DependencyInjection.swift */; };
 		FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC0CC9F29ACDCEE00615397 /* DoTryCatchThrows.swift */; };
 		FDC2EB28293E2F7900086E71 /* Regexs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2EB27293E2F7900086E71 /* Regexs.swift */; };
 		FDD1BDB92987B5F900D614DE /* FileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDB82987B5F900D614DE /* FileImporter.swift */; };
@@ -210,6 +211,7 @@
 		FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-4-Accessory-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
+		FDBFF6E229B5D85900FC8FC2 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		FDC0CC9F29ACDCEE00615397 /* DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrows.swift; sourceTree = "<group>"; };
 		FDC2EB27293E2F7900086E71 /* Regexs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexs.swift; sourceTree = "<group>"; };
 		FDD1BDB82987B5F900D614DE /* FileImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImporter.swift; sourceTree = "<group>"; };
@@ -473,6 +475,7 @@
 		FD3BB4A8299E4AAA0016232E /* Concepts */ = {
 			isa = PBXGroup;
 			children = (
+				FDBFF6E129B5D83600FC8FC2 /* DependencyInjection */,
 				FDC0CC9D29ACDCC800615397 /* Concurrency */,
 				FDD2E0CF29A23E0900FF0367 /* MemoryManagement */,
 				FD3BB4A9299E4AC30016232E /* Thread_Queue_GCD_Sync_Async */,
@@ -905,6 +908,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FDBFF6E129B5D83600FC8FC2 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFF6E229B5D85900FC8FC2 /* DependencyInjection.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
 		FDC0CC9D29ACDCC800615397 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
@@ -1175,6 +1186,7 @@
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
 				FD391D9C2983D024003CCE6E /* Index_reduxState.swift in Sources */,
 				FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */,
+				FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */,
