@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   @StateObject private var storeModel = StoreModel()
+  @StateObject private var downloadManager = DownloadManager()
   
   var body: some View {
 //    if #available(iOS 15, *) {
@@ -52,7 +53,9 @@ struct ContentView: View {
 //    DogView()
 //    MemoryManagement()
 //    TaskAndDottaskHomeView()
-    Actors()
+//    Actors()
+    DownloadView()
+      .environmentObject(downloadManager)
   }
 }
 

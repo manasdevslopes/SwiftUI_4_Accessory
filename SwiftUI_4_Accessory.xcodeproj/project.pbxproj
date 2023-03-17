@@ -89,6 +89,11 @@
 		FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE1298029A400360E8B /* ProductListViewModel.swift */; };
 		FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE529802E2400360E8B /* ModelViewViews.swift */; };
 		FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6A95B29B0A56C00924BE7 /* Actors.swift */; };
+		FDA9671529C4B29F0030F5CE /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671429C4B29F0030F5CE /* DownloadView.swift */; };
+		FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671629C4B2ED0030F5CE /* DownloadButton.swift */; };
+		FDA9671929C4B6140030F5CE /* WatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671829C4B6140030F5CE /* WatchButton.swift */; };
+		FDA9671B29C4B7060030F5CE /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671A29C4B7060030F5CE /* VideoView.swift */; };
+		FDAC86ED29C4A592004A6E19 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC86EC29C4A592004A6E19 /* DownloadManager.swift */; };
 		FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB09E2977F8D600FB9CE4 /* Expense.swift */; };
 		FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */; };
 		FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFF6E229B5D85900FC8FC2 /* DependencyInjection.swift */; };
@@ -209,6 +214,11 @@
 		FDA4CFE529802E2400360E8B /* ModelViewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewViews.swift; sourceTree = "<group>"; };
 		FDA6A95B29B0A56C00924BE7 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-4-Accessory-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDA9671429C4B29F0030F5CE /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		FDA9671629C4B2ED0030F5CE /* DownloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadButton.swift; sourceTree = "<group>"; };
+		FDA9671829C4B6140030F5CE /* WatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchButton.swift; sourceTree = "<group>"; };
+		FDA9671A29C4B7060030F5CE /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		FDAC86EC29C4A592004A6E19 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		FDADB09E2977F8D600FB9CE4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FDADB0A02977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderMenu.swift; sourceTree = "<group>"; };
 		FDBFF6E229B5D85900FC8FC2 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
@@ -870,6 +880,42 @@
 			path = Actors;
 			sourceTree = "<group>";
 		};
+		FDAC86E829C4A50E004A6E19 /* DownloadFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC86EB29C4A53B004A6E19 /* Components */,
+				FDAC86EA29C4A533004A6E19 /* View */,
+				FDAC86E929C4A523004A6E19 /* ViewModel */,
+			);
+			path = DownloadFiles;
+			sourceTree = "<group>";
+		};
+		FDAC86E929C4A523004A6E19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC86EC29C4A592004A6E19 /* DownloadManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDAC86EA29C4A533004A6E19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9671429C4B29F0030F5CE /* DownloadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDAC86EB29C4A53B004A6E19 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9671629C4B2ED0030F5CE /* DownloadButton.swift */,
+				FDA9671829C4B6140030F5CE /* WatchButton.swift */,
+				FDA9671A29C4B7060030F5CE /* VideoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,6 +1070,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FDAC86E829C4A50E004A6E19 /* DownloadFiles */,
 				FD3BB4A8299E4AAA0016232E /* Concepts */,
 				FDD1BDB72987B51D00D614DE /* UnderratedModifiers */,
 				FD391DAE298411DD003CCE6E /* SharedTransitionsMatchhedGeometryEffecct */,
@@ -1147,6 +1194,7 @@
 				FD391D9A2983D015003CCE6E /* ReduxStates.swift in Sources */,
 				FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */,
 				FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */,
+				FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
 				FD570F112947575200072769 /* Particle.swift in Sources */,
 				FD391D952983CED9003CCE6E /* Products.swift in Sources */,
@@ -1187,6 +1235,8 @@
 				FD391D9C2983D024003CCE6E /* Index_reduxState.swift in Sources */,
 				FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */,
 				FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */,
+				FDA9671529C4B29F0030F5CE /* DownloadView.swift in Sources */,
+				FDA9671B29C4B7060030F5CE /* VideoView.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */,
@@ -1201,6 +1251,7 @@
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
 				FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */,
 				FD9E951E29841B69009B2537 /* CardView.swift in Sources */,
+				FDAC86ED29C4A592004A6E19 /* DownloadManager.swift in Sources */,
 				FD391D972983CF1C003CCE6E /* Index_action.swift in Sources */,
 				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
 				FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */,
@@ -1235,6 +1286,7 @@
 				FD62CF3A293B780400C4ED1E /* Gradients.swift in Sources */,
 				FD391DA02983D120003CCE6E /* RootReducer.swift in Sources */,
 				FD62CF4C293B8BEE00C4ED1E /* ToggleAtOnce.swift in Sources */,
+				FDA9671929C4B6140030F5CE /* WatchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1373,7 +1425,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1407,7 +1459,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SwiftUI_4_Accessory wants to pic image from your gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
