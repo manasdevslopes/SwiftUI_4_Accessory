@@ -64,6 +64,8 @@
      
      6. iOS Popovers
      
+     7. Apple Clock View
+     
 **19. Architectures**
      
      1. MVVM - Model View ViewModel
