@@ -66,6 +66,8 @@
      
      7. Apple Clock View
      
+     8. Music App Bottom Sheet with Hero Animation
+     
 **19. Architectures**
      
      1. MVVM - Model View ViewModel
