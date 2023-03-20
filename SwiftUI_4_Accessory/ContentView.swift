@@ -54,8 +54,11 @@ struct ContentView: View {
 //    MemoryManagement()
 //    TaskAndDottaskHomeView()
 //    Actors()
-    DownloadView()
-      .environmentObject(downloadManager)
+    
+//    DownloadView()
+//      .environmentObject(downloadManager)
+    
+    Clock().padding().frame(width: 200, height: 200)
   }
 }
 

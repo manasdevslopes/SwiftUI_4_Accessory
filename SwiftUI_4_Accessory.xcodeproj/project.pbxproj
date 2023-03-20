@@ -104,6 +104,7 @@
 		FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDBD2987CA3800D614DE /* AppReviews.swift */; };
 		FDD2E0D129A23E2500FF0367 /* MemoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2E0D029A23E2400FF0367 /* MemoryManagement.swift */; };
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
+		FDEC500529C881BB0002A439 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC500429C881BB0002A439 /* Clock.swift */; };
 		FDEE9B0529ADEE00008E9E5D /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */; };
 		FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */; };
 		FDEE9B0A29AE164E008E9E5D /* TaskAndDottask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */; };
@@ -229,6 +230,7 @@
 		FDD1BDBD2987CA3800D614DE /* AppReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviews.swift; sourceTree = "<group>"; };
 		FDD2E0D029A23E2400FF0367 /* MemoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagement.swift; sourceTree = "<group>"; };
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
+		FDEC500429C881BB0002A439 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 		FDEE9B0929AE164E008E9E5D /* TaskAndDottask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAndDottask.swift; sourceTree = "<group>"; };
@@ -919,6 +921,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDEC500329C881AC0002A439 /* Clock */,
 				FD14E38C298009EC00F73224 /* NativePopover */,
 				FD03D59D297AC080005184D5 /* AutoOTPTextField */,
 				FD03D59A297AB0B7005184D5 /* DropDownPicker */,
@@ -1028,6 +1031,14 @@
 				FD354EA3294323FE00B3BD6E /* KavsoftViewsChart */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		FDEC500329C881AC0002A439 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				FDEC500429C881BB0002A439 /* Clock.swift */,
+			);
+			path = Clock;
 			sourceTree = "<group>";
 		};
 		FDEE9B0329ADEDF1008E9E5D /* AsyncAwait */ = {
@@ -1242,6 +1253,7 @@
 				FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */,
 				FD045C3C29AE4FE2006E04B4 /* AsyncLetBootcamp.swift in Sources */,
 				FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */,
+				FDEC500529C881BB0002A439 /* Clock.swift in Sources */,
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD391DAD2983D93D003CCE6E /* ReduxView.swift in Sources */,
 				FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */,
