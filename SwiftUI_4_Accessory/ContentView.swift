@@ -58,7 +58,9 @@ struct ContentView: View {
 //    DownloadView()
 //      .environmentObject(downloadManager)
     
-    Clock().padding().frame(width: 200, height: 200)
+//    Clock().padding().frame(width: 200, height: 200)
+    
+    MusicBottomSheet()
   }
 }
 
