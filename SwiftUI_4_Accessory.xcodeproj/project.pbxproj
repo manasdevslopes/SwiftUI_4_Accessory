@@ -115,6 +115,17 @@
 		FDF036C429179917000D3F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C329179917000D3F87 /* Assets.xcassets */; };
 		FDF036C729179917000D3F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF036C629179917000D3F87 /* Preview Assets.xcassets */; };
 		FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF036CE29179B34000D3F87 /* NewLayoutAPI.swift */; };
+		FDF05F5229CF1D4E002EB21A /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F5129CF1D4E002EB21A /* Leaderboard.swift */; };
+		FDF05F5729CF1DD9002EB21A /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F5629CF1DD9002EB21A /* PetModel.swift */; };
+		FDF05F5929CF21D1002EB21A /* MyEqualWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F5829CF21D1002EB21A /* MyEqualWidthHStack.swift */; };
+		FDF05F5B29CF2598002EB21A /* VotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F5A29CF2598002EB21A /* VotesView.swift */; };
+		FDF05F5F29CF2AB0002EB21A /* MyEqualWidthVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F5E29CF2AB0002EB21A /* MyEqualWidthVStack.swift */; };
+		FDF05F6129CF2E46002EB21A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6029CF2E46002EB21A /* Model.swift */; };
+		FDF05F6329CF358D002EB21A /* ButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6229CF358D002EB21A /* ButtonStack.swift */; };
+		FDF05F6529CF377F002EB21A /* Podium.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6429CF377F002EB21A /* Podium.swift */; };
+		FDF05F6729CF3864002EB21A /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6629CF3864002EB21A /* Avatar.swift */; };
+		FDF05F6929CF390F002EB21A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6829CF390F002EB21A /* Profile.swift */; };
+		FDF05F6B29CF39A2002EB21A /* MyRadialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF05F6A29CF39A2002EB21A /* MyRadialLayout.swift */; };
 		FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA5B6129B0E53F005DF86F /* GlobalActors.swift */; };
 /* End PBXBuildFile section */
 
@@ -244,6 +255,17 @@
 		FDF036C329179917000D3F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF036C629179917000D3F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDF036CE29179B34000D3F87 /* NewLayoutAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLayoutAPI.swift; sourceTree = "<group>"; };
+		FDF05F5129CF1D4E002EB21A /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		FDF05F5629CF1DD9002EB21A /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		FDF05F5829CF21D1002EB21A /* MyEqualWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEqualWidthHStack.swift; sourceTree = "<group>"; };
+		FDF05F5A29CF2598002EB21A /* VotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesView.swift; sourceTree = "<group>"; };
+		FDF05F5E29CF2AB0002EB21A /* MyEqualWidthVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEqualWidthVStack.swift; sourceTree = "<group>"; };
+		FDF05F6029CF2E46002EB21A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FDF05F6229CF358D002EB21A /* ButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStack.swift; sourceTree = "<group>"; };
+		FDF05F6429CF377F002EB21A /* Podium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podium.swift; sourceTree = "<group>"; };
+		FDF05F6629CF3864002EB21A /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		FDF05F6829CF390F002EB21A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FDF05F6A29CF39A2002EB21A /* MyRadialLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRadialLayout.swift; sourceTree = "<group>"; };
 		FDFA5B6129B0E53F005DF86F /* GlobalActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -942,6 +964,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDF05F5029CF1D0A002EB21A /* Leaderboard */,
 				FD73615F29C8A89D00009930 /* MusicBottomSheet */,
 				FDEC500329C881AC0002A439 /* Clock */,
 				FD14E38C298009EC00F73224 /* NativePopover */,
@@ -1137,6 +1160,48 @@
 			path = NewLayoutAPI;
 			sourceTree = "<group>";
 		};
+		FDF05F5029CF1D0A002EB21A /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				FDF05F5529CF1D57002EB21A /* Component */,
+				FDF05F5429CF1D54002EB21A /* View */,
+				FDF05F5329CF1D51002EB21A /* Model */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		FDF05F5329CF1D51002EB21A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDF05F5629CF1DD9002EB21A /* PetModel.swift */,
+				FDF05F6029CF2E46002EB21A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDF05F5429CF1D54002EB21A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDF05F5A29CF2598002EB21A /* VotesView.swift */,
+				FDF05F6829CF390F002EB21A /* Profile.swift */,
+				FDF05F6629CF3864002EB21A /* Avatar.swift */,
+				FDF05F6429CF377F002EB21A /* Podium.swift */,
+				FDF05F5129CF1D4E002EB21A /* Leaderboard.swift */,
+				FDF05F6229CF358D002EB21A /* ButtonStack.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDF05F5529CF1D57002EB21A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FDF05F5829CF21D1002EB21A /* MyEqualWidthHStack.swift */,
+				FDF05F5E29CF2AB0002EB21A /* MyEqualWidthVStack.swift */,
+				FDF05F6A29CF39A2002EB21A /* MyRadialLayout.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		FDFA5B6029B0E530005DF86F /* GlobalActors */ = {
 			isa = PBXGroup;
 			children = (
@@ -1234,6 +1299,7 @@
 				FD570F132947583300072769 /* ParticleSystem.swift in Sources */,
 				FD12388E294DD947009B5672 /* NavigationStackSeanAllen.swift in Sources */,
 				FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */,
+				FDF05F6729CF3864002EB21A /* Avatar.swift in Sources */,
 				FDA1F52929781E3800C3C137 /* CustomShape.swift in Sources */,
 				FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */,
 				FD62CF3F293B7A9B00C4ED1E /* AnyLayoutAPI.swift in Sources */,
@@ -1244,6 +1310,7 @@
 				FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */,
 				FD391D932983CE97003CCE6E /* Actions.swift in Sources */,
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
+				FDF05F5929CF21D1002EB21A /* MyEqualWidthHStack.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */,
 				FD4F784829852FE100A7AC7F /* CountryTableView.swift in Sources */,
@@ -1258,19 +1325,25 @@
 				FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */,
 				FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */,
 				FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */,
+				FDF05F5729CF1DD9002EB21A /* PetModel.swift in Sources */,
 				FD606362292FAF5D006A26FF /* ShareLinkAPI.swift in Sources */,
 				FDA4CFDC2980290D00360E8B /* Product.swift in Sources */,
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
+				FDF05F6929CF390F002EB21A /* Profile.swift in Sources */,
 				FD81491629B0EF9700AEA914 /* Sendables.swift in Sources */,
+				FDF05F6129CF2E46002EB21A /* Model.swift in Sources */,
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
+				FDF05F5229CF1D4E002EB21A /* Leaderboard.swift in Sources */,
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
 				FD391D9C2983D024003CCE6E /* Index_reduxState.swift in Sources */,
 				FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */,
+				FDF05F6329CF358D002EB21A /* ButtonStack.swift in Sources */,
 				FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */,
 				FDA9671529C4B29F0030F5CE /* DownloadView.swift in Sources */,
 				FDA9671B29C4B7060030F5CE /* VideoView.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
+				FDF05F6529CF377F002EB21A /* Podium.swift in Sources */,
 				FDADB0A12977FA7E00FB9CE4 /* CollapsibleHeaderMenu.swift in Sources */,
 				FD268E6429B1E7A500152525 /* AsyncPublishers.swift in Sources */,
 				FD045C3C29AE4FE2006E04B4 /* AsyncLetBootcamp.swift in Sources */,
@@ -1300,6 +1373,8 @@
 				FD62CF47293B86CE00C4ED1E /* SFSymbols.swift in Sources */,
 				FD7C763D299E5053000AA1AA /* Log.swift in Sources */,
 				FDF036CF29179B34000D3F87 /* NewLayoutAPI.swift in Sources */,
+				FDF05F5F29CF2AB0002EB21A /* MyEqualWidthVStack.swift in Sources */,
+				FDF05F6B29CF39A2002EB21A /* MyRadialLayout.swift in Sources */,
 				FD4F784C29852FFC00A7AC7F /* StartView.swift in Sources */,
 				FD391DA72983D6A8003CCE6E /* WebServices.swift in Sources */,
 				FDF036C229179913000D3F87 /* ContentView.swift in Sources */,
@@ -1314,6 +1389,7 @@
 				FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */,
 				FDD2E0D129A23E2500FF0367 /* MemoryManagement.swift in Sources */,
 				FD4F784529852EFC00A7AC7F /* City.swift in Sources */,
+				FDF05F5B29CF2598002EB21A /* VotesView.swift in Sources */,
 				FD3BB4AF299E4AFE0016232E /* DogViewModel.swift in Sources */,
 				FD4F784A29852FF000A7AC7F /* CountrySplitView.swift in Sources */,
 				FDEE9B0A29AE164E008E9E5D /* TaskAndDottask.swift in Sources */,

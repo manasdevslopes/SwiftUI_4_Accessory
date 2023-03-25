@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
   @StateObject private var storeModel = StoreModel()
   @StateObject private var downloadManager = DownloadManager()
+  @StateObject private var model: Model = Model.startData
   
   var body: some View {
 //    if #available(iOS 15, *) {
@@ -60,7 +61,9 @@ struct ContentView: View {
     
 //    Clock().padding().frame(width: 200, height: 200)
     
-    MusicBottomSheet()
+//    MusicBottomSheet()
+    
+    VotesView().environmentObject(model)
   }
 }
 
