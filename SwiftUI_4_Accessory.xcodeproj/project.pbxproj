@@ -78,6 +78,8 @@
 		FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */; };
 		FD7E12BD298123190006C330 /* ContainerPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7E12BC298123190006C330 /* ContainerPatternView.swift */; };
 		FD81491629B0EF9700AEA914 /* Sendables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81491529B0EF9700AEA914 /* Sendables.swift */; };
+		FD9B8CDD29D5C332000E1B00 /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B8CDC29D5C332000E1B00 /* ShimmerEffect.swift */; };
+		FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B8CDE29D5C430000E1B00 /* ShimmerEffectModifier.swift */; };
 		FD9E951E29841B69009B2537 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951D29841B69009B2537 /* CardView.swift */; };
 		FD9E952029841F0B009B2537 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */; };
 		FDA048C629AF4E1E00A851B8 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */; };
@@ -216,6 +218,8 @@
 		FD7C763C299E5053000AA1AA /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
 		FD7E12BC298123190006C330 /* ContainerPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPatternView.swift; sourceTree = "<group>"; };
 		FD81491529B0EF9700AEA914 /* Sendables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sendables.swift; sourceTree = "<group>"; };
+		FD9B8CDC29D5C332000E1B00 /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
+		FD9B8CDE29D5C430000E1B00 /* ShimmerEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectModifier.swift; sourceTree = "<group>"; };
 		FD9E951D29841B69009B2537 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FD9E951F29841F0B009B2537 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		FDA048C529AF4E1E00A851B8 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
@@ -814,6 +818,23 @@
 			path = Sendable;
 			sourceTree = "<group>";
 		};
+		FD9B8CDA29D5C307000E1B00 /* ShimmerEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B8CDC29D5C332000E1B00 /* ShimmerEffect.swift */,
+				FD9B8CDB29D5C322000E1B00 /* Helpers */,
+			);
+			path = ShimmerEffect;
+			sourceTree = "<group>";
+		};
+		FD9B8CDB29D5C322000E1B00 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B8CDE29D5C430000E1B00 /* ShimmerEffectModifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FDA048C429AF4E0A00A851B8 /* TaskGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -964,6 +985,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD9B8CDA29D5C307000E1B00 /* ShimmerEffect */,
 				FDF05F5029CF1D0A002EB21A /* Leaderboard */,
 				FD73615F29C8A89D00009930 /* MusicBottomSheet */,
 				FDEC500329C881AC0002A439 /* Clock */,
@@ -1352,6 +1374,7 @@
 				FD570F1729476D7500072769 /* MotionManager.swift in Sources */,
 				FD391DAD2983D93D003CCE6E /* ReduxView.swift in Sources */,
 				FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */,
+				FD9B8CDD29D5C332000E1B00 /* ShimmerEffect.swift in Sources */,
 				FD123891294DEC48009B5672 /* Closures.swift in Sources */,
 				FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */,
 				FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */,
@@ -1364,6 +1387,7 @@
 				FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */,
 				FD391DAB2983D7DD003CCE6E /* Index_store.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
+				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
 				FD391DC32984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift in Sources */,

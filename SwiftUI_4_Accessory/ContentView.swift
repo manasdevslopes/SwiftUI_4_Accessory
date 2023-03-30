@@ -63,7 +63,9 @@ struct ContentView: View {
     
 //    MusicBottomSheet()
     
-    VotesView().environmentObject(model)
+//    VotesView().environmentObject(model)
+    
+    ShimmerEffect()
   }
 }
 
