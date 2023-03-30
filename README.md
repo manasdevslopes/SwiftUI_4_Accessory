@@ -70,6 +70,8 @@
      
      9. Leaderboard UI
      
+    10. ShimmerEffect
+     
 **19. Architectures**
      
      1. MVVM - Model View ViewModel
