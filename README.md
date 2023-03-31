@@ -71,6 +71,9 @@
      9. Leaderboard UI
      
     10. ShimmerEffect
+    
+    11. Infinite Scroll Carousel
+    
      
 **19. Architectures**
      
