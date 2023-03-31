@@ -65,7 +65,9 @@ struct ContentView: View {
     
 //    VotesView().environmentObject(model)
     
-    ShimmerEffect()
+//    ShimmerEffect()
+    
+    InfiniteScroll()
   }
 }
 
