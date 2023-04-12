@@ -21,6 +21,12 @@
 		FD31B2F629D7241700867CE8 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31B2F529D7241700867CE8 /* PageControl.swift */; };
 		FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */; };
 		FD354EA72943243000B3BD6E /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD354EA62943243000B3BD6E /* SiteView.swift */; };
+		FD35D9FA29E6D853002AB59D /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35D9F929E6D853002AB59D /* Tab.swift */; };
+		FD35D9FD29E6DB1F002AB59D /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35D9FC29E6DB1F002AB59D /* HomeStack.swift */; };
+		FD35D9FF29E6DB2D002AB59D /* FavouriteStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35D9FE29E6DB2D002AB59D /* FavouriteStack.swift */; };
+		FD35DA0129E6DB42002AB59D /* SettingsStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35DA0029E6DB42002AB59D /* SettingsStack.swift */; };
+		FD35DA0329E6E110002AB59D /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35DA0229E6E110002AB59D /* AppData.swift */; };
+		FD35DA0529E6E248002AB59D /* DeepLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35DA0429E6E248002AB59D /* DeepLinkApp.swift */; };
 		FD391D932983CE97003CCE6E /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391D922983CE97003CCE6E /* Actions.swift */; };
 		FD391D952983CED9003CCE6E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391D942983CED9003CCE6E /* Products.swift */; };
 		FD391D972983CF1C003CCE6E /* Index_action.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD391D962983CF1C003CCE6E /* Index_action.swift */; };
@@ -163,6 +169,12 @@
 		FD31B2F529D7241700867CE8 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		FD354EA12943236100B3BD6E /* KavsoftViewsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavsoftViewsChart.swift; sourceTree = "<group>"; };
 		FD354EA62943243000B3BD6E /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
+		FD35D9F929E6D853002AB59D /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		FD35D9FC29E6DB1F002AB59D /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
+		FD35D9FE29E6DB2D002AB59D /* FavouriteStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteStack.swift; sourceTree = "<group>"; };
+		FD35DA0029E6DB42002AB59D /* SettingsStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStack.swift; sourceTree = "<group>"; };
+		FD35DA0229E6E110002AB59D /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		FD35DA0429E6E248002AB59D /* DeepLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkApp.swift; sourceTree = "<group>"; };
 		FD391D922983CE97003CCE6E /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		FD391D942983CED9003CCE6E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		FD391D962983CF1C003CCE6E /* Index_action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index_action.swift; sourceTree = "<group>"; };
@@ -422,6 +434,43 @@
 				FD354EA62943243000B3BD6E /* SiteView.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FD35D9F629E6D7FC002AB59D /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				FD35D9F829E6D820002AB59D /* View */,
+				FD35D9F729E6D81C002AB59D /* Model */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		FD35D9F729E6D81C002AB59D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD35D9F929E6D853002AB59D /* Tab.swift */,
+				FD35D9FB29E6DB07002AB59D /* NavStacks */,
+				FD35DA0229E6E110002AB59D /* AppData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD35D9F829E6D820002AB59D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD35DA0429E6E248002AB59D /* DeepLinkApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD35D9FB29E6DB07002AB59D /* NavStacks */ = {
+			isa = PBXGroup;
+			children = (
+				FD35D9FC29E6DB1F002AB59D /* HomeStack.swift */,
+				FD35D9FE29E6DB2D002AB59D /* FavouriteStack.swift */,
+				FD35DA0029E6DB42002AB59D /* SettingsStack.swift */,
+			);
+			path = NavStacks;
 			sourceTree = "<group>";
 		};
 		FD391D8A2983CCE3003CCE6E /* ReduxPattern */ = {
@@ -1184,6 +1233,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FD35D9F629E6D7FC002AB59D /* DeepLink */,
 				FDAC86E829C4A50E004A6E19 /* DownloadFiles */,
 				FD3BB4A8299E4AAA0016232E /* Concepts */,
 				FDD1BDB72987B51D00D614DE /* UnderratedModifiers */,
@@ -1351,6 +1401,7 @@
 				FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */,
 				FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */,
 				FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */,
+				FD35DA0329E6E110002AB59D /* AppData.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
 				FD570F112947575200072769 /* Particle.swift in Sources */,
 				FD391D952983CED9003CCE6E /* Products.swift in Sources */,
@@ -1392,8 +1443,10 @@
 				FDF05F6929CF390F002EB21A /* Profile.swift in Sources */,
 				FD81491629B0EF9700AEA914 /* Sendables.swift in Sources */,
 				FDF05F6129CF2E46002EB21A /* Model.swift in Sources */,
+				FD35DA0529E6E248002AB59D /* DeepLinkApp.swift in Sources */,
 				FD62CF37293B700D00C4ED1E /* Searches.swift in Sources */,
 				FD62CF34293A23C300C4ED1E /* MultiDatePickers.swift in Sources */,
+				FD35D9FD29E6DB1F002AB59D /* HomeStack.swift in Sources */,
 				FDF05F5229CF1D4E002EB21A /* Leaderboard.swift in Sources */,
 				FD123894294DF9C0009B5672 /* DelegtesProtocol.swift in Sources */,
 				FD391D9C2983D024003CCE6E /* Index_reduxState.swift in Sources */,
@@ -1419,12 +1472,14 @@
 				FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */,
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
 				FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */,
+				FD35D9FF29E6DB2D002AB59D /* FavouriteStack.swift in Sources */,
 				FD9E951E29841B69009B2537 /* CardView.swift in Sources */,
 				FDAC86ED29C4A592004A6E19 /* DownloadManager.swift in Sources */,
 				FD391D972983CF1C003CCE6E /* Index_action.swift in Sources */,
 				FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */,
 				FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */,
 				FD391DAB2983D7DD003CCE6E /* Index_store.swift in Sources */,
+				FD35D9FA29E6D853002AB59D /* Tab.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
@@ -1444,6 +1499,7 @@
 				FD62CF4A293B886A00C4ED1E /* Texts.swift in Sources */,
 				FD31B2F429D71DC100867CE8 /* OffsetReader.swift in Sources */,
 				FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */,
+				FD35DA0129E6DB42002AB59D /* SettingsStack.swift in Sources */,
 				FD606356292F9AA4006A26FF /* NavigationSplitAPI.swift in Sources */,
 				FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */,
 				FD4F784F2985311200A7AC7F /* CityView.swift in Sources */,
