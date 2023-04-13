@@ -74,6 +74,8 @@
     
     11. Infinite Scroll Carousel
     
+    12. VisaCard View with FocusState
+    
      
 **19. Architectures**
      
