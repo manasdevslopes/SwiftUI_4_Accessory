@@ -5,8 +5,6 @@
 //  Created by MANAS VIJAYWARGIYA on 13/04/23.
 //
 
-import UIKit
-import Foundation
 import SwiftUI
 
 struct Markdowns: View {

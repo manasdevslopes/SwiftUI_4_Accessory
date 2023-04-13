@@ -57,6 +57,8 @@
 		FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B59297969EE00A19CFC /* CustomImagePicker.swift */; };
 		FD443CE329E7F8FB0008A890 /* Markdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CE229E7F8FB0008A890 /* Markdowns.swift */; };
 		FD443CE629E810750008A890 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CE529E810750008A890 /* Color+Extension.swift */; };
+		FD443CEC29E841500008A890 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CEB29E841500008A890 /* VisaCard.swift */; };
+		FD443CEF29E846540008A890 /* ActiveKeyboardField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CEE29E846540008A890 /* ActiveKeyboardField.swift */; };
 		FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F783E298515F900A7AC7F /* TableUser.swift */; };
 		FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F7840298516DE00A7AC7F /* TableView.swift */; };
 		FD4F784529852EFC00A7AC7F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784429852EFC00A7AC7F /* City.swift */; };
@@ -209,6 +211,8 @@
 		FD428B59297969EE00A19CFC /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
 		FD443CE229E7F8FB0008A890 /* Markdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdowns.swift; sourceTree = "<group>"; };
 		FD443CE529E810750008A890 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FD443CEB29E841500008A890 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
+		FD443CEE29E846540008A890 /* ActiveKeyboardField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveKeyboardField.swift; sourceTree = "<group>"; };
 		FD4F783E298515F900A7AC7F /* TableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUser.swift; sourceTree = "<group>"; };
 		FD4F7840298516DE00A7AC7F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		FD4F784429852EFC00A7AC7F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -683,6 +687,31 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		FD443CEA29E8413D0008A890 /* VisaCard */ = {
+			isa = PBXGroup;
+			children = (
+				FD443CF029E846900008A890 /* View */,
+				FD443CED29E846380008A890 /* Model */,
+			);
+			path = VisaCard;
+			sourceTree = "<group>";
+		};
+		FD443CED29E846380008A890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD443CEE29E846540008A890 /* ActiveKeyboardField.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD443CF029E846900008A890 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD443CEB29E841500008A890 /* VisaCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FD4F783D2985159700A7AC7F /* Tables */ = {
 			isa = PBXGroup;
 			children = (
@@ -1089,6 +1118,7 @@
 		FDADB0992977EEEC00FB9CE4 /* ComplexUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD443CEA29E8413D0008A890 /* VisaCard */,
 				FD31B2EC29D711BE00867CE8 /* InfiniteScroll */,
 				FD9B8CDA29D5C307000E1B00 /* ShimmerEffect */,
 				FDF05F5029CF1D0A002EB21A /* Leaderboard */,
@@ -1442,6 +1472,7 @@
 				FD31B2F129D7126500867CE8 /* Page.swift in Sources */,
 				FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */,
 				FD391D932983CE97003CCE6E /* Actions.swift in Sources */,
+				FD443CEF29E846540008A890 /* ActiveKeyboardField.swift in Sources */,
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
 				FDF05F5929CF21D1002EB21A /* MyEqualWidthHStack.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
@@ -1504,6 +1535,7 @@
 				FDD1BDBC2987BC9800D614DE /* FileExporter.swift in Sources */,
 				FD391DAB2983D7DD003CCE6E /* Index_store.swift in Sources */,
 				FD35D9FA29E6D853002AB59D /* Tab.swift in Sources */,
+				FD443CEC29E841500008A890 /* VisaCard.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
