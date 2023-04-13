@@ -55,6 +55,8 @@
 		FD428B562979647D00A19CFC /* ImageCroppingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B552979647D00A19CFC /* ImageCroppingTool.swift */; };
 		FD428B582979649C00A19CFC /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B572979649C00A19CFC /* Crop.swift */; };
 		FD428B5A297969EF00A19CFC /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD428B59297969EE00A19CFC /* CustomImagePicker.swift */; };
+		FD443CE329E7F8FB0008A890 /* Markdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CE229E7F8FB0008A890 /* Markdowns.swift */; };
+		FD443CE629E810750008A890 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD443CE529E810750008A890 /* Color+Extension.swift */; };
 		FD4F783F298515F900A7AC7F /* TableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F783E298515F900A7AC7F /* TableUser.swift */; };
 		FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F7840298516DE00A7AC7F /* TableView.swift */; };
 		FD4F784529852EFC00A7AC7F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F784429852EFC00A7AC7F /* City.swift */; };
@@ -205,6 +207,8 @@
 		FD428B552979647D00A19CFC /* ImageCroppingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCroppingTool.swift; sourceTree = "<group>"; };
 		FD428B572979649C00A19CFC /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
 		FD428B59297969EE00A19CFC /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
+		FD443CE229E7F8FB0008A890 /* Markdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdowns.swift; sourceTree = "<group>"; };
+		FD443CE529E810750008A890 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		FD4F783E298515F900A7AC7F /* TableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableUser.swift; sourceTree = "<group>"; };
 		FD4F7840298516DE00A7AC7F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		FD4F784429852EFC00A7AC7F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -661,6 +665,22 @@
 				FD428B572979649C00A19CFC /* Crop.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FD443CE129E7F8D80008A890 /* Markdowns */ = {
+			isa = PBXGroup;
+			children = (
+				FD443CE229E7F8FB0008A890 /* Markdowns.swift */,
+			);
+			path = Markdowns;
+			sourceTree = "<group>";
+		};
+		FD443CE429E810590008A890 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD443CE529E810750008A890 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FD4F783D2985159700A7AC7F /* Tables */ = {
@@ -1233,6 +1253,8 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FD443CE429E810590008A890 /* Extensions */,
+				FD443CE129E7F8D80008A890 /* Markdowns */,
 				FD35D9F629E6D7FC002AB59D /* DeepLink */,
 				FDAC86E829C4A50E004A6E19 /* DownloadFiles */,
 				FD3BB4A8299E4AAA0016232E /* Concepts */,
@@ -1400,6 +1422,7 @@
 				FD391D9A2983D015003CCE6E /* ReduxStates.swift in Sources */,
 				FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */,
 				FDADB09F2977F8D600FB9CE4 /* Expense.swift in Sources */,
+				FD443CE329E7F8FB0008A890 /* Markdowns.swift in Sources */,
 				FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */,
 				FD35DA0329E6E110002AB59D /* AppData.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
@@ -1471,6 +1494,7 @@
 				FD03D59C297AB0E2005184D5 /* DropDownPicker.swift in Sources */,
 				FDC0CCA029ACDCEE00615397 /* DoTryCatchThrows.swift in Sources */,
 				FD428B582979649C00A19CFC /* Crop.swift in Sources */,
+				FD443CE629E810750008A890 /* Color+Extension.swift in Sources */,
 				FDFA5B6229B0E53F005DF86F /* GlobalActors.swift in Sources */,
 				FD35D9FF29E6DB2D002AB59D /* FavouriteStack.swift in Sources */,
 				FD9E951E29841B69009B2537 /* CardView.swift in Sources */,
