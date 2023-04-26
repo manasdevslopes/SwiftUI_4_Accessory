@@ -131,8 +131,10 @@
           
      4. Dependency Injection
      
-24. Download MP4 files and play in without internet
+**24. Download MP4 files and play in without internet**
 
-25. Deep Linking
+**25. Deep Linking**
 
-26. Markdowns
+**26. Markdowns**
+
+**27. Particle Effect with Particle Effect Modifier**
