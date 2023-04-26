@@ -117,7 +117,9 @@ struct ContentView: View {
     
     //    Markdowns()
     
-    VisaCard().preferredColorScheme(.light)
+//    VisaCard().preferredColorScheme(.light)
+    
+    ParticleEffect().preferredColorScheme(.dark)
   }
 }
 

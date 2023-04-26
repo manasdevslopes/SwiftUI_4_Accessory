@@ -107,6 +107,9 @@
 		FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE1298029A400360E8B /* ProductListViewModel.swift */; };
 		FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4CFE529802E2400360E8B /* ModelViewViews.swift */; };
 		FDA6A95C29B0A56C00924BE7 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6A95B29B0A56C00924BE7 /* Actors.swift */; };
+		FDA8AA5129F974460032AC20 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AA5029F974460032AC20 /* ParticleEffect.swift */; };
+		FDA8AA5329F977DB0032AC20 /* ParticleEffectViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AA5229F977DB0032AC20 /* ParticleEffectViewModifier.swift */; };
+		FDA8AA5529F978950032AC20 /* ParticleEffectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AA5429F978950032AC20 /* ParticleEffectModel.swift */; };
 		FDA9671529C4B29F0030F5CE /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671429C4B29F0030F5CE /* DownloadView.swift */; };
 		FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671629C4B2ED0030F5CE /* DownloadButton.swift */; };
 		FDA9671929C4B6140030F5CE /* WatchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9671829C4B6140030F5CE /* WatchButton.swift */; };
@@ -262,6 +265,9 @@
 		FDA4CFE529802E2400360E8B /* ModelViewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewViews.swift; sourceTree = "<group>"; };
 		FDA6A95B29B0A56C00924BE7 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-4-Accessory-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDA8AA5029F974460032AC20 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
+		FDA8AA5229F977DB0032AC20 /* ParticleEffectViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffectViewModifier.swift; sourceTree = "<group>"; };
+		FDA8AA5429F978950032AC20 /* ParticleEffectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffectModel.swift; sourceTree = "<group>"; };
 		FDA9671429C4B29F0030F5CE /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 		FDA9671629C4B2ED0030F5CE /* DownloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadButton.swift; sourceTree = "<group>"; };
 		FDA9671829C4B6140030F5CE /* WatchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchButton.swift; sourceTree = "<group>"; };
@@ -1079,6 +1085,32 @@
 			path = Actors;
 			sourceTree = "<group>";
 		};
+		FDA8AA4D29F974210032AC20 /* ParticleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8AA4F29F9743D0032AC20 /* Model */,
+				FDA8AA4E29F974390032AC20 /* View */,
+			);
+			path = ParticleEffect;
+			sourceTree = "<group>";
+		};
+		FDA8AA4E29F974390032AC20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8AA5029F974460032AC20 /* ParticleEffect.swift */,
+				FDA8AA5229F977DB0032AC20 /* ParticleEffectViewModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDA8AA4F29F9743D0032AC20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8AA5429F978950032AC20 /* ParticleEffectModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FDAC86E829C4A50E004A6E19 /* DownloadFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -1283,6 +1315,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FDA8AA4D29F974210032AC20 /* ParticleEffect */,
 				FD443CE429E810590008A890 /* Extensions */,
 				FD443CE129E7F8D80008A890 /* Markdowns */,
 				FD35D9F629E6D7FC002AB59D /* DeepLink */,
@@ -1492,6 +1525,7 @@
 				FD3E7619293CAA340024CC49 /* ForLoopsTips.swift in Sources */,
 				FDF05F5729CF1DD9002EB21A /* PetModel.swift in Sources */,
 				FD606362292FAF5D006A26FF /* ShareLinkAPI.swift in Sources */,
+				FDA8AA5329F977DB0032AC20 /* ParticleEffectViewModifier.swift in Sources */,
 				FDA4CFDC2980290D00360E8B /* Product.swift in Sources */,
 				FD354EA72943243000B3BD6E /* SiteView.swift in Sources */,
 				FDF05F6929CF390F002EB21A /* Profile.swift in Sources */,
@@ -1538,6 +1572,7 @@
 				FD443CEC29E841500008A890 /* VisaCard.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
+				FDA8AA5529F978950032AC20 /* ParticleEffectModel.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
 				FD391DC32984149A003CCE6E /* SharedTransitionMatchedGeometryEffectView.swift in Sources */,
@@ -1560,6 +1595,7 @@
 				FDF036C029179913000D3F87 /* SwiftUI_4_AccessoryApp.swift in Sources */,
 				FD4F784F2985311200A7AC7F /* CityView.swift in Sources */,
 				FD62CF3C293B78EE00C4ED1E /* Shadows.swift in Sources */,
+				FDA8AA5129F974460032AC20 /* ParticleEffect.swift in Sources */,
 				FDA4CFE2298029A400360E8B /* ProductListViewModel.swift in Sources */,
 				FD3BB4AD299E4AEF0016232E /* Dog.swift in Sources */,
 				FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */,
