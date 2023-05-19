@@ -122,7 +122,9 @@ struct ContentView: View {
 //    ParticleEffect().preferredColorScheme(.dark)
     
 //    PhotosPickers()
-    MultiPhotosPicker()
+//    MultiPhotosPicker()
+    
+    GrammarAgreement()
   }
 }
 

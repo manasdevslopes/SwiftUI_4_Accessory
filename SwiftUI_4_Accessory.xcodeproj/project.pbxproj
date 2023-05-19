@@ -127,6 +127,7 @@
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
 		FDE87F3A2A17BDC90098EE21 /* PhotosPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE87F392A17BDC90098EE21 /* PhotosPickers.swift */; };
 		FDE87F3C2A17C7030098EE21 /* MultiPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE87F3B2A17C7030098EE21 /* MultiPhotosPicker.swift */; };
+		FDE87F402A17CA650098EE21 /* GrammarAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE87F3F2A17CA650098EE21 /* GrammarAgreement.swift */; };
 		FDEC500529C881BB0002A439 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC500429C881BB0002A439 /* Clock.swift */; };
 		FDEE9B0529ADEE00008E9E5D /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */; };
 		FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */; };
@@ -287,6 +288,7 @@
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
 		FDE87F392A17BDC90098EE21 /* PhotosPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickers.swift; sourceTree = "<group>"; };
 		FDE87F3B2A17C7030098EE21 /* MultiPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPhotosPicker.swift; sourceTree = "<group>"; };
+		FDE87F3F2A17CA650098EE21 /* GrammarAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarAgreement.swift; sourceTree = "<group>"; };
 		FDEC500429C881BB0002A439 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
@@ -1281,6 +1283,22 @@
 			path = PhotosPickers;
 			sourceTree = "<group>";
 		};
+		FDE87F3D2A17CA360098EE21 /* SwiftUITips */ = {
+			isa = PBXGroup;
+			children = (
+				FDE87F3E2A17CA480098EE21 /* GrammerAgreement */,
+			);
+			path = SwiftUITips;
+			sourceTree = "<group>";
+		};
+		FDE87F3E2A17CA480098EE21 /* GrammerAgreement */ = {
+			isa = PBXGroup;
+			children = (
+				FDE87F3F2A17CA650098EE21 /* GrammarAgreement.swift */,
+			);
+			path = GrammerAgreement;
+			sourceTree = "<group>";
+		};
 		FDEC500329C881AC0002A439 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
@@ -1329,6 +1347,7 @@
 				FDA7CE45297D394C00BFE046 /* SwiftUI-4-Accessory-Info.plist */,
 				FDF036BF29179913000D3F87 /* SwiftUI_4_AccessoryApp.swift */,
 				FDF036C129179913000D3F87 /* ContentView.swift */,
+				FDE87F3D2A17CA360098EE21 /* SwiftUITips */,
 				FDA8AA4D29F974210032AC20 /* ParticleEffect */,
 				FD443CE429E810590008A890 /* Extensions */,
 				FD443CE129E7F8D80008A890 /* Markdowns */,
@@ -1518,6 +1537,7 @@
 				FD391DA22983D502003CCE6E /* ProductsMiddleware.swift in Sources */,
 				FD391DA92983D787003CCE6E /* Stores.swift in Sources */,
 				FD31B2F129D7126500867CE8 /* Page.swift in Sources */,
+				FDE87F402A17CA650098EE21 /* GrammarAgreement.swift in Sources */,
 				FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */,
 				FD391D932983CE97003CCE6E /* Actions.swift in Sources */,
 				FD443CEF29E846540008A890 /* ActiveKeyboardField.swift in Sources */,
