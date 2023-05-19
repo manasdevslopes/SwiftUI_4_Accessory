@@ -119,7 +119,10 @@ struct ContentView: View {
     
 //    VisaCard().preferredColorScheme(.light)
     
-    ParticleEffect().preferredColorScheme(.dark)
+//    ParticleEffect().preferredColorScheme(.dark)
+    
+//    PhotosPickers()
+    MultiPhotosPicker()
   }
 }
 

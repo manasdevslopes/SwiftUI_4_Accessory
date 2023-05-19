@@ -125,6 +125,8 @@
 		FDD1BDBE2987CA3800D614DE /* AppReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1BDBD2987CA3800D614DE /* AppReviews.swift */; };
 		FDD2E0D129A23E2500FF0367 /* MemoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2E0D029A23E2400FF0367 /* MemoryManagement.swift */; };
 		FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */; };
+		FDE87F3A2A17BDC90098EE21 /* PhotosPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE87F392A17BDC90098EE21 /* PhotosPickers.swift */; };
+		FDE87F3C2A17C7030098EE21 /* MultiPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE87F3B2A17C7030098EE21 /* MultiPhotosPicker.swift */; };
 		FDEC500529C881BB0002A439 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEC500429C881BB0002A439 /* Clock.swift */; };
 		FDEE9B0529ADEE00008E9E5D /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */; };
 		FDEE9B0729AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */; };
@@ -283,6 +285,8 @@
 		FDD1BDBD2987CA3800D614DE /* AppReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviews.swift; sourceTree = "<group>"; };
 		FDD2E0D029A23E2400FF0367 /* MemoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagement.swift; sourceTree = "<group>"; };
 		FDE34C4E2940BC970083C126 /* YoutubeViewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewChart.swift; sourceTree = "<group>"; };
+		FDE87F392A17BDC90098EE21 /* PhotosPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickers.swift; sourceTree = "<group>"; };
+		FDE87F3B2A17C7030098EE21 /* MultiPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPhotosPicker.swift; sourceTree = "<group>"; };
 		FDEC500429C881BB0002A439 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		FDEE9B0429ADEE00008E9E5D /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		FDEE9B0629AE0AE0008E9E5D /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
@@ -786,6 +790,7 @@
 		FD606351292F95B7006A26FF /* SwiftUI4 */ = {
 			isa = PBXGroup;
 			children = (
+				FDE87F382A17BD3F0098EE21 /* PhotosPickers */,
 				FD4F783D2985159700A7AC7F /* Tables */,
 				FDC2EB29293E334700086E71 /* WeatherKits */,
 				FDE34C4D2940BBFA0083C126 /* Charts */,
@@ -1267,6 +1272,15 @@
 			path = Charts;
 			sourceTree = "<group>";
 		};
+		FDE87F382A17BD3F0098EE21 /* PhotosPickers */ = {
+			isa = PBXGroup;
+			children = (
+				FDE87F392A17BDC90098EE21 /* PhotosPickers.swift */,
+				FDE87F3B2A17C7030098EE21 /* MultiPhotosPicker.swift */,
+			);
+			path = PhotosPickers;
+			sourceTree = "<group>";
+		};
 		FDEC500329C881AC0002A439 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
@@ -1489,6 +1503,7 @@
 				FDA9671729C4B2ED0030F5CE /* DownloadButton.swift in Sources */,
 				FD35DA0329E6E110002AB59D /* AppData.swift in Sources */,
 				FD60635F292FAE45006A26FF /* TapGestureLocation.swift in Sources */,
+				FDE87F3C2A17C7030098EE21 /* MultiPhotosPicker.swift in Sources */,
 				FD570F112947575200072769 /* Particle.swift in Sources */,
 				FD391D952983CED9003CCE6E /* Products.swift in Sources */,
 				FD570F132947583300072769 /* ParticleSystem.swift in Sources */,
@@ -1572,6 +1587,7 @@
 				FD443CEC29E841500008A890 /* VisaCard.swift in Sources */,
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
+				FDE87F3A2A17BDC90098EE21 /* PhotosPickers.swift in Sources */,
 				FDA8AA5529F978950032AC20 /* ParticleEffectModel.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
