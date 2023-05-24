@@ -71,6 +71,12 @@
 		FD570F132947583300072769 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F122947583300072769 /* ParticleSystem.swift */; };
 		FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1429475A9100072769 /* SpecialEffects.swift */; };
 		FD570F1729476D7500072769 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD570F1629476D7500072769 /* MotionManager.swift */; };
+		FD5BA5022A1E570F0042C196 /* TextTips1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA5012A1E570F0042C196 /* TextTips1.swift */; };
+		FD5BA5042A1E58460042C196 /* TextTips2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA5032A1E58460042C196 /* TextTips2.swift */; };
+		FD5BA5062A1E59400042C196 /* TextTips3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA5052A1E59400042C196 /* TextTips3.swift */; };
+		FD5BA5082A1E59AD0042C196 /* TextTips4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA5072A1E59AD0042C196 /* TextTips4.swift */; };
+		FD5BA50A2A1E5A810042C196 /* TextTips5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA5092A1E5A810042C196 /* TextTips5.swift */; };
+		FD5BA50C2A1E5AFA0042C196 /* TextTips6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BA50B2A1E5AFA0042C196 /* TextTips6.swift */; };
 		FD606354292F95E3006A26FF /* NavigationStackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606353292F95E3006A26FF /* NavigationStackAPI.swift */; };
 		FD606356292F9AA4006A26FF /* NavigationSplitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606355292F9AA4006A26FF /* NavigationSplitAPI.swift */; };
 		FD606359292FA307006A26FF /* BottomSheetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD606358292FA307006A26FF /* BottomSheetAPI.swift */; };
@@ -231,6 +237,12 @@
 		FD570F122947583300072769 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 		FD570F1429475A9100072769 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
 		FD570F1629476D7500072769 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		FD5BA5012A1E570F0042C196 /* TextTips1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips1.swift; sourceTree = "<group>"; };
+		FD5BA5032A1E58460042C196 /* TextTips2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips2.swift; sourceTree = "<group>"; };
+		FD5BA5052A1E59400042C196 /* TextTips3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips3.swift; sourceTree = "<group>"; };
+		FD5BA5072A1E59AD0042C196 /* TextTips4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips4.swift; sourceTree = "<group>"; };
+		FD5BA5092A1E5A810042C196 /* TextTips5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips5.swift; sourceTree = "<group>"; };
+		FD5BA50B2A1E5AFA0042C196 /* TextTips6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTips6.swift; sourceTree = "<group>"; };
 		FD606353292F95E3006A26FF /* NavigationStackAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackAPI.swift; sourceTree = "<group>"; };
 		FD606355292F9AA4006A26FF /* NavigationSplitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitAPI.swift; sourceTree = "<group>"; };
 		FD606358292FA307006A26FF /* BottomSheetAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetAPI.swift; sourceTree = "<group>"; };
@@ -789,6 +801,19 @@
 			path = SpecialEffects;
 			sourceTree = "<group>";
 		};
+		FD5BA5002A1E56F90042C196 /* TextTips */ = {
+			isa = PBXGroup;
+			children = (
+				FD5BA5012A1E570F0042C196 /* TextTips1.swift */,
+				FD5BA5032A1E58460042C196 /* TextTips2.swift */,
+				FD5BA5052A1E59400042C196 /* TextTips3.swift */,
+				FD5BA5072A1E59AD0042C196 /* TextTips4.swift */,
+				FD5BA5092A1E5A810042C196 /* TextTips5.swift */,
+				FD5BA50B2A1E5AFA0042C196 /* TextTips6.swift */,
+			);
+			path = TextTips;
+			sourceTree = "<group>";
+		};
 		FD606351292F95B7006A26FF /* SwiftUI4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1286,6 +1311,7 @@
 		FDE87F3D2A17CA360098EE21 /* SwiftUITips */ = {
 			isa = PBXGroup;
 			children = (
+				FD5BA5002A1E56F90042C196 /* TextTips */,
 				FDE87F3E2A17CA480098EE21 /* GrammerAgreement */,
 			);
 			path = SwiftUITips;
@@ -1514,6 +1540,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5BA5022A1E570F0042C196 /* TextTips1.swift in Sources */,
 				FDEE9B0529ADEE00008E9E5D /* AsyncAwait.swift in Sources */,
 				FD391D9A2983D015003CCE6E /* ReduxStates.swift in Sources */,
 				FD3BB4AB299E4AE10016232E /* DogView.swift in Sources */,
@@ -1539,10 +1566,12 @@
 				FD31B2F129D7126500867CE8 /* Page.swift in Sources */,
 				FDE87F402A17CA650098EE21 /* GrammarAgreement.swift in Sources */,
 				FDA4CFDA2980281400360E8B /* Webservice.swift in Sources */,
+				FD5BA5062A1E59400042C196 /* TextTips3.swift in Sources */,
 				FD391D932983CE97003CCE6E /* Actions.swift in Sources */,
 				FD443CEF29E846540008A890 /* ActiveKeyboardField.swift in Sources */,
 				FD570F1529475A9100072769 /* SpecialEffects.swift in Sources */,
 				FDF05F5929CF21D1002EB21A /* MyEqualWidthHStack.swift in Sources */,
+				FD5BA50C2A1E5AFA0042C196 /* TextTips6.swift in Sources */,
 				FDE34C4F2940BC970083C126 /* YoutubeViewChart.swift in Sources */,
 				FDA4CFE629802E2400360E8B /* ModelViewViews.swift in Sources */,
 				FD4F784829852FE100A7AC7F /* CountryTableView.swift in Sources */,
@@ -1554,6 +1583,7 @@
 				FD4F7841298516DE00A7AC7F /* TableView.swift in Sources */,
 				FD14E38F29800A2F00F73224 /* NativePopover.swift in Sources */,
 				FDA4CFDF2980296700360E8B /* MVVMView.swift in Sources */,
+				FD5BA5082A1E59AD0042C196 /* TextTips4.swift in Sources */,
 				FD62CF41293B7C3C00C4ED1E /* AnyLayoutAPI2.swift in Sources */,
 				FDA1F52629781D0F00C3C137 /* MorphingView.swift in Sources */,
 				FD03D5A0297AC0AE005184D5 /* AutoOTPTextField.swift in Sources */,
@@ -1577,6 +1607,7 @@
 				FDF05F6329CF358D002EB21A /* ButtonStack.swift in Sources */,
 				FDBFF6E329B5D85900FC8FC2 /* DependencyInjection.swift in Sources */,
 				FDA9671529C4B29F0030F5CE /* DownloadView.swift in Sources */,
+				FD5BA5042A1E58460042C196 /* TextTips2.swift in Sources */,
 				FDA9671B29C4B7060030F5CE /* VideoView.swift in Sources */,
 				FD7C763E299E5053000AA1AA /* DispatchQueue+Extension.swift in Sources */,
 				FDF05F6529CF377F002EB21A /* Podium.swift in Sources */,
@@ -1608,6 +1639,7 @@
 				FD60635C292FA761006A26FF /* GridAPI.swift in Sources */,
 				FD9B8CDF29D5C430000E1B00 /* ShimmerEffectModifier.swift in Sources */,
 				FDE87F3A2A17BDC90098EE21 /* PhotosPickers.swift in Sources */,
+				FD5BA50A2A1E5A810042C196 /* TextTips5.swift in Sources */,
 				FDA8AA5529F978950032AC20 /* ParticleEffectModel.swift in Sources */,
 				FD354EA22943236100B3BD6E /* KavsoftViewsChart.swift in Sources */,
 				FD391DC129841281003CCE6E /* VideoFile.swift in Sources */,
