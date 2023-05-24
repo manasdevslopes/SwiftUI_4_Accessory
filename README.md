@@ -144,3 +144,5 @@
 **29. SwiftUI Tips**
 
      Grammar Agreement
+     
+     Text Tips
