@@ -70,7 +70,7 @@ struct ContentView: View {
     
     //    InfiniteScroll()
     
-    //    DeepLinkApp()
+    //    DeepLinkApp() // swiftui://tab=settings?nav=terms_of_service
     //      .environmentObject(appData)
     //    // MARK: - Called when Deep Links was triggered
     //      .onOpenURL { url in
